@@ -17,8 +17,8 @@ content:
         required: true
         options:
           values:
-            - {value: security, label: 多媒体安全}
-            - {value: hiding, label: 信息隐藏}
+            - {name: security, label: 多媒体安全}
+            - {name: hiding, label: 信息隐藏}
       - {name: venue, label: 会议或期刊, type: string}
       - {name: status, label: 发表状态, type: string}
       - {name: authors, label: 作者列表, type: string}
