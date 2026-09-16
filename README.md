@@ -2,7 +2,7 @@
 
 武汉大学国家网络安全学院。研究方向：多媒体安全、信息隐藏。
 
-预计公开地址：https://secrethhh.github.io/lab-website/ 。只有 GitHub Actions 发布成功后，该地址才可访问。
+中文网站：https://secrethhh.github.io/lab-website/ 。英文网站：https://secrethhh.github.io/lab-website/en/ 。右上角 English / 中文切换到当前页面的对应语言版本，语言切换不依赖浏览器翻译或 JavaScript。
 
 ## 两种建设方案
 
@@ -26,8 +26,8 @@ README 是给维护者看的说明书，不是网站首页。github.com 是存�
 
 1. 打开 https://app.pagescms.org ，用拥有本仓库权限的 GitHub 账号登录。
 2. 按提示安装/授权 Pages CMS，只选择此仓库即可；选中 `Secrethhh/lab-website` 和 `main` 分支。
-3. 打开“论文与成果”，新增或修改记录。填写标题、年份、研究方向、简介；填写真实的发表状态，别把在审写成录用。
-4. 在同一记录填写论文、代码、数据集链接；资源页面自动汇总，不必重复录入。
+3. 打开“论文与成果”，新增或修改记录。填写中英文标题、中英文简介、年份、研究方向；填写真实的发表状态，别把在审写成录用。英文标题可以使用论文原题，简介请人工核对。
+4. 在同一记录填写论文、代码、数据集链接。有代码或数据集时，还需填写“资源简称”和中英文的“研究问题、核心方法、开放内容、适用场景”。资源页面与论文详情共用这些字段，不必重复录入。没有开放资源的论文使用“详细介绍”和“英文详细介绍”两个正文字段。
 5. 勾选“首页重点展示”可放入首页。内容确认后关闭“草稿”，保存。草稿只是不显示在网站，**公开仓库中的草稿文件仍然公开，不能存未公开或敏感资料**。
 6. 等待 GitHub Actions 变绿，检查网页和资源链接。最后更新 `src/_data/site.json` 的 `updated` 日期。
 
@@ -41,7 +41,8 @@ README 是给维护者看的说明书，不是网站首页。github.com 是存�
 | 实验室详细介绍 | `src/about.njk` |
 | 任延珍老师个人页 | `src/people/ren-yanzhen.njk` |
 | 一篇论文及对应开放资源 | `src/publications/英文短名.md` |
-| 网站外观 | `src/assets/style.css` |
+| 网站外观 | `src/assets/academic.css` |
+| 栏目、导航等公共文字的中英文对应 | `src/_data/translations.json` |
 | CMS 编辑表单 | `.pages.yml` |
 
 ## 交接与回退
@@ -83,3 +84,20 @@ pnpm check
 - GitHub Pages：https://docs.github.com/en/pages
 
 本项目未为论文、数据、代码等第三方研究成果重新授权；使用时请查看其原始许可。
+
+## 双语与资源介绍维护示例
+
+新增一项数据集时，先用一两句话填写简介，再分别回答：
+
+- **研究问题**：原有方法在哪种场景遇到什么问题？
+- **核心方法**：这篇论文用什么主要思路解决？不必照抄摘要。
+- **开放内容**：具体开放了代码、数据、模型中的哪些内容？未开放的不要填写。
+- **适用场景**：其他研究者可以用它训练、测试或比较什么？
+
+中英文字段保存在同一篇论文文件里，年份、作者、资源链接共用。`titleEn`、`summaryEn` 是英文标题和简介；`problemEn`、`methodEn`、`resourceDescriptionEn`、`usageEn` 对应四项英文说明。有完整四项说明的资源论文会直接用这些内容生成详情页；其他论文使用 Markdown 正文及 `bodyEn` 英文正文。
+
+如果改团队的公共介绍，需要同步维护 `translations.json` 的对应英文。研究方向细分介绍在 `site.json` 的 `subareas` 内，已有 `title/titleEn`、`description/descriptionEn` 成对字段。构建检查会提示缺失英文、异常年份、资源说明不全或失效站内链接。
+
+`pnpm build` 会重新生成 `_site`（不要在此目录编辑内容），再生成 `_site/en`。`pnpm dev` 也会生成双语页面；删除文件或将已发布内容改回草稿后，请完整运行 `pnpm build` 清除旧预览。线上每次发布使用全新构建目录。
+
+2026-09-16 版式参考：https://fdmas.github.io/index.html 。借鉴简洁学术导航、蓝色栏目标题、分隔线和逐项项目说明；使用本团队内容与独立样式。新增英文版与资源说明不改变原中文页面地址。

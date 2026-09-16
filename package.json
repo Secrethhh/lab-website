@@ -10,12 +10,13 @@
   },
   "scripts": {
     "dev": "eleventy --serve",
-    "build": "node scripts/validate.mjs && eleventy",
+    "build": "node scripts/validate.mjs && node scripts/clean-output.mjs && eleventy",
     "check": "node scripts/check-output.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "3.1.6",
     "gray-matter": "4.0.3",
+    "markdown-it": "14.3.2",
     "yaml": "2.8.1"
   }
 }

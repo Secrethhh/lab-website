@@ -1,5 +1,9 @@
 import path from 'node:path';
 export default function(config) {
+  config.on('eleventy.after',async()=>{
+    const {localize}=await import('./scripts/localize.mjs');
+    localize();
+  });
   config.addPassthroughCopy('src/assets');
   config.addFilter('relative',(target,current='/')=>{
     const [url,hash]=target.split('#');

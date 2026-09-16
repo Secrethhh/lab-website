@@ -10,6 +10,7 @@ content:
       fields: [title, year, direction, status, draft]
     fields:
       - {name: title, label: 成果标题, type: string, required: true}
+      - {name: titleEn, label: 英文标题, type: string, required: true}
       - {name: year, label: 年份, type: number, required: true}
       - name: direction
         label: 研究方向
@@ -23,10 +24,21 @@ content:
       - {name: status, label: 发表状态, type: string}
       - {name: authors, label: 作者列表, type: string}
       - {name: summary, label: 简介, type: text, required: true}
+      - {name: summaryEn, label: 英文简介, type: text, required: true}
       - {name: featured, label: 首页重点展示, type: boolean, default: false}
       - {name: draft, label: 草稿（不展示在网站）, type: boolean, default: true}
       - {name: paper, label: 论文链接（HTTPS）, type: string}
       - {name: code, label: 代码链接（HTTPS）, type: string}
       - {name: data, label: 数据集链接（HTTPS）, type: string}
       - {name: source, label: 信息依据, type: string}
+      - {name: resourceName, label: 资源简称（有代码或数据集时填写）, type: string}
+      - {name: problem, label: 研究问题（有资源时填写）, type: text}
+      - {name: problemEn, label: 研究问题（英文）, type: text}
+      - {name: method, label: 核心方法（有资源时填写）, type: text}
+      - {name: methodEn, label: 核心方法（英文）, type: text}
+      - {name: resourceDescription, label: 开放内容（说明具体提供什么）, type: text}
+      - {name: resourceDescriptionEn, label: 开放内容（英文）, type: text}
+      - {name: usage, label: 适用场景（有资源时填写）, type: text}
+      - {name: usageEn, label: 适用场景（英文）, type: text}
       - {name: body, label: 详细介绍, type: rich-text}
+      - {name: bodyEn, label: 英文详细介绍, type: rich-text}
