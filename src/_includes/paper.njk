@@ -1,0 +1,4 @@
+---
+layout: layout.njk
+---
+<section class="page narrow"><a class="eyebrow" href="{{ '/publications/' | relative(page.url) }}">← 全部研究成果</a><p class="meta">{{ year }} · {{ venue }} · {{ status }}</p><h1>{{ title }}</h1>{% if authors %}<p>{{ authors }}</p>{% endif %}<div class="links">{% if paper %}<a class="button" href="{{ paper }}">论文原文 ↗</a>{% endif %}{% if code %}<a class="button" href="{{ code }}">开放代码 ↗</a>{% endif %}{% if data %}<a class="button" href="{{ data }}">开放数据集 ↗</a>{% endif %}</div><div class="prose">{{ content | safe }}</div><p class="source">资料依据：{{ source }}。论文的最终版本与使用许可请以原始发布页为准。</p></section>

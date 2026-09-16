@@ -1,0 +1,63 @@
+{
+  "name": "MALab 多媒体安全",
+  "institution": "武汉大学国家网络安全学院",
+  "intro": "围绕多媒体内容的理解、真实性与安全性，以及多媒体信息隐藏与隐写分析，开展方法研究和系统实践。",
+  "about": "团队目前开展多媒体安全与信息隐藏两个方向的研究。多媒体安全方向涵盖内容理解、音视频伪造检测、对抗防御与身份保护；信息隐藏方向涵盖压缩域隐写、隐写分析及神经网络信息隐藏。",
+  "updated": "2026-09-16",
+  "directions": [
+    {
+      "id": "security",
+      "title": "多媒体安全",
+      "subtitle": "MULTIMEDIA SECURITY",
+      "description": "研究声音与视频内容理解、深度伪造检测、实时交互安全和对抗防御，关注技术在压缩、噪声和真实通信环境下的可靠性。",
+      "topics": [
+        "音视频事件理解与定位",
+        "语音、人脸及多模态伪造检测",
+        "对抗防御与数字身份保护"
+      ]
+    },
+    {
+      "id": "hiding",
+      "title": "信息隐藏",
+      "subtitle": "INFORMATION HIDING",
+      "description": "围绕音视频压缩参数域、隐写分析与神经网络信息隐藏，研究信息嵌入的隐蔽性、鲁棒性和可检测性。",
+      "topics": [
+        "音视频压缩域隐写与隐写分析",
+        "基于神经网络的信息隐藏",
+        "生成式隐写与鲁棒性研究"
+      ]
+    }
+  ],
+  "historicalHiding": [
+    {
+      "title": "FastSPP",
+      "summary": "基于相同脉冲位置相关性的 AMR 隐写分析。",
+      "venue": "汇报列示：TIFS 2015"
+    },
+    {
+      "title": "MSDPD",
+      "summary": "基于基音周期二阶差分的 AMR 隐写分析。",
+      "venue": "汇报列示：TIFS 2017"
+    },
+    {
+      "title": "PDM-AFS",
+      "summary": "基于脉冲分布的安全 AMR 隐写。",
+      "venue": "汇报列示：TIFS 2019"
+    },
+    {
+      "title": "MultiSpecNet",
+      "summary": "基于多尺度声谱网络的通用音频隐写分析。",
+      "venue": "汇报列示：TDSC 2023"
+    },
+    {
+      "title": "SPOM / PB-NOP",
+      "summary": "基于最优概率差异、分块局部最优特性的视频隐写分析。",
+      "venue": "汇报列示：IH 2014 / IH 2017"
+    },
+    {
+      "title": "MVC / GLO",
+      "summary": "基于多域一致性、泛化局部最优特性的视频运动矢量隐写分析。",
+      "venue": "汇报列示：TIFS 2020 / TDSC 2025"
+    }
+  ]
+}
