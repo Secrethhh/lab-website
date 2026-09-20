@@ -12,7 +12,7 @@ export default function(config) {
     return result+(hash?'#'+hash:'');
   });
   config.addFilter('direction',(items,id)=>items.filter(p=>p.data.direction===id));
-  config.addFilter('years',items=>[...new Set(items.map(p=>p.data.year))].sort((a,b)=>b-a).map(y=>[y,items.filter(p=>p.data.year===y)]));
+  config.addFilter('years',items=>[...new Set(items.map(p=>p.data.year))].sort((a,b)=>b-a).map(year=>({year,papers:items.filter(p=>p.data.year===year)})));
   const published=api=>api.getFilteredByTag('paper').filter(p=>!p.data.draft).sort((a,b)=>b.data.year-a.data.year||a.data.title.localeCompare(b.data.title));
   config.addCollection('published',published);
   config.addCollection('featured',api=>published(api).filter(p=>p.data.featured));

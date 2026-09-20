@@ -3,4 +3,4 @@ layout: layout.njk
 title: 研究成果
 permalink: /publications/index.html
 ---
-<section class="page"><p class="eyebrow">PUBLICATIONS</p><h1>研究成果</h1><p class="lead">按年份查看研究工作。发表、录用与预印本状态单独标注。</p>{% for year, items in collections.published | years %}<h2 class="year">{{ year }}</h2>{% include 'cards.njk' %}{% endfor %}</section>
+<section class="page"><p class="eyebrow">PUBLICATIONS</p><h1>研究成果</h1><p class="lead">按年份查看研究工作。发表、录用与预印本状态单独标注。</p>{% for group in collections.published | years %}<h2 class="year">{{ group.year }}</h2>{% set items = group.papers %}{% include 'cards.njk' %}{% endfor %}</section>
