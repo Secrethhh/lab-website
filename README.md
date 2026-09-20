@@ -1,4 +1,4 @@
-# MALab 多媒体安全实验室网站
+# Lab 多媒体安全实验室网站
 
 武汉大学国家网络安全学院 · 多媒体安全与信息隐藏
 
@@ -279,4 +279,3 @@ pnpm check
 - [GitHub Pages 文档](https://docs.github.com/en/pages)
 
 论文、数据和外部代码的使用许可，以各原始项目说明为准。
-
