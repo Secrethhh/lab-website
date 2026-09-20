@@ -6,6 +6,9 @@ export function localize() {
 const md=new MarkdownIt({html:false});
 const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 const dictionary=JSON.parse(fs.readFileSync('src/_data/translations.json','utf8'));
+const faculty=JSON.parse(fs.readFileSync('src/_data/faculty.json','utf8'));
+dictionary[faculty.role]=faculty.roleEn;
+for(const section of faculty.sections){dictionary[section.title]=section.titleEn;for(const entry of section.entries)dictionary[entry.text]=entry.textEn;}
 const site=JSON.parse(fs.readFileSync('src/_data/site.json','utf8'));
 for(const direction of site.directions)for(const area of direction.subareas||[])for(const key of ['title','description'])dictionary[area[key]]=area[key+'En'];
 const papers=new Map();

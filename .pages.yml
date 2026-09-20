@@ -1,4 +1,31 @@
 content:
+  - name: faculty
+    label: 任延珍老师个人介绍
+    type: file
+    path: src/_data/faculty.json
+    format: json
+    fields:
+      - {name: role, label: 职称与导师资格, type: string}
+      - {name: roleEn, label: 职称与导师资格（英文）, type: string}
+      - {name: email, label: 联系邮箱, type: string}
+      - {name: verified, label: 资料核对日期, type: string}
+      - {name: source, label: 学院官方来源, type: string}
+      - name: sections
+        label: 个人介绍栏目
+        type: object
+        list: true
+        fields:
+          - {name: id, label: 栏目英文标识（保持不重复）, type: string}
+          - {name: title, label: 栏目标题, type: string}
+          - {name: titleEn, label: 栏目标题（英文）, type: string}
+          - name: entries
+            label: 内容条目
+            type: object
+            list: true
+            fields:
+              - {name: period, label: 时间段（可不填）, type: string}
+              - {name: text, label: 中文内容, type: text}
+              - {name: textEn, label: 英文内容, type: text}
   - name: publications
     label: 论文与成果
     type: collection

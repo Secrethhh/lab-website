@@ -1,0 +1,65 @@
+{
+  "role": "教授 · 博士生导师",
+  "roleEn": "Professor · Doctoral Supervisor",
+  "email": "renyz@whu.edu.cn",
+  "verified": "2026-09-20",
+  "source": "https://cse.whu.edu.cn/info/3421/40341.htm",
+  "sections": [
+    {
+      "id": "biography",
+      "title": "个人简介",
+      "titleEn": "Biography",
+      "entries": [
+        {"text": "任延珍，博士，武汉大学国家网络安全学院教授、博士生导师。自1999年起在武汉大学任教，主要从事多媒体内容安全研究，关注人工智能交互、媒体真实性以及信息隐藏等问题。", "textEn": "Yanzhen Ren is a professor and doctoral supervisor at the School of Cyber Science and Engineering, Wuhan University. She has taught at Wuhan University since 1999. Her research focuses on multimedia content security, including AI interaction, media authenticity and information hiding."},
+        {"text": "主持国家自然科学基金、中央高校基本科研业务费、省部级专项及企业合作等科研项目，并开展相关领域的学术交流与人才培养。", "textEn": "She has led research supported by the National Natural Science Foundation of China, central university research funds, provincial and ministerial programs, and industry collaborations, alongside academic exchange and student supervision."}
+      ]
+    },
+    {
+      "id": "interests",
+      "title": "研究领域",
+      "titleEn": "Research interests",
+      "entries": [
+        {"text": "以多媒体内容安全为主线，研究 AI 交互安全、多媒体取证与伪造检测、多媒体信息隐藏与隐写分析，以及多媒体特征表示学习。", "textEn": "Her research centers on multimedia content security: AI interaction security, multimedia forensics and forgery detection, multimedia information hiding and steganalysis, and multimedia representation learning."}
+      ]
+    },
+    {
+      "id": "education",
+      "title": "教育背景",
+      "titleEn": "Education",
+      "entries": [
+        {"period": "2002.07–2009.12", "text": "武汉大学 · 通信与信息系统 · 博士", "textEn": "Wuhan University · Ph.D. in Communication and Information Systems"},
+        {"period": "1996.09–1999.07", "text": "华中科技大学 · 机械原理及设计 · 硕士", "textEn": "Huazhong University of Science and Technology · Master’s degree in Mechanical Theory and Design"},
+        {"period": "1989.09–1993.07", "text": "西北工业大学 · 导弹总体设计 · 学士", "textEn": "Northwestern Polytechnical University · Bachelor’s degree in Missile System Design"}
+      ]
+    },
+    {
+      "id": "experience",
+      "title": "工作与访学经历",
+      "titleEn": "Appointments and academic visits",
+      "entries": [
+        {"period": "2018.01–至今", "text": "武汉大学国家网络安全学院，空天信息安全与可信计算教育部重点实验室。", "textEn": "School of Cyber Science and Engineering, Wuhan University; Key Laboratory of Aerospace Information Security and Trusted Computing, Ministry of Education."},
+        {"period": "2016.01–2017.01", "text": "美国纽约州立大学布法罗分校学术访问，获国家留学基金委资助。", "textEn": "Academic visit to the University at Buffalo, State University of New York, supported by the China Scholarship Council."},
+        {"period": "1999.07–2017.12", "text": "武汉大学计算机学院信息安全系。", "textEn": "Department of Information Security, School of Computer Science, Wuhan University."},
+        {"period": "1999.07–2011.05", "text": "武汉大学计算机学院，国家多媒体软件工程技术研究中心。", "textEn": "School of Computer Science and National Engineering Research Center for Multimedia Software, Wuhan University."}
+      ]
+    },
+    {
+      "id": "teaching",
+      "title": "教学与学生指导",
+      "titleEn": "Teaching and supervision",
+      "entries": [
+        {"text": "本科生课程：内容安全、信息隐藏技术。研究生课程：信息内容安全原理。", "textEn": "Undergraduate courses: Content Security and Information Hiding Technology. Graduate course: Principles of Information Content Security."},
+        {"text": "指导本科生开展科研实践并参加全国大学生信息安全竞赛。具体招生与科研实践安排可通过邮箱联系。", "textEn": "She supervises undergraduate research and student participation in the National College Student Information Security Contest. For current opportunities in research and supervision, please contact her by email."}
+      ]
+    },
+    {
+      "id": "service",
+      "title": "学术服务",
+      "titleEn": "Academic service",
+      "entries": [
+        {"text": "参与 IEEE Transactions on Information Forensics and Security、SCIENCE CHINA Information Sciences 等期刊的审稿工作，并担任《信息安全学报》多媒体安全专刊特约编辑。", "textEn": "Her academic service includes reviewing for IEEE Transactions on Information Forensics and Security and SCIENCE CHINA Information Sciences, and serving as a guest editor for a multimedia security special issue of the Journal of Cyber Security."},
+        {"text": "参与中国图象图形学学会数字取证与安全专业委员会、CCF 语音对话与听觉专业组、中国防伪行业协会信息隐藏专业技术委员会的相关学术工作。", "textEn": "She participates in professional groups on digital forensics and security, speech dialogue and auditory research, and information hiding within CSIG, CCF and the China Anti-Counterfeiting Industry Association."}
+      ]
+    }
+  ]
+}

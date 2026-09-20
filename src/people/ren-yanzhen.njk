@@ -3,4 +3,13 @@ layout: layout.njk
 title: 任延珍
 permalink: /people/ren-yanzhen/index.html
 ---
-<section class="page narrow"><p class="eyebrow">FACULTY</p><h1>任延珍 <small>Yanzhen Ren</small></h1><p class="lead">教授 · 武汉大学国家网络安全学院</p><div class="prose"><h2>研究领域</h2><p>多媒体安全、信息隐藏与隐写分析，研究涉及语音和视频深度伪造检测、数字内容安全等方向。</p><h2>联系方式</h2><p>邮箱：<a href="mailto:renyz@whu.edu.cn">renyz@whu.edu.cn</a></p><h2>相关研究</h2><p><a href="{{ '/publications/' | relative(page.url) }}">查看团队研究成果 →</a></p><p class="source">职称依据学院教师名录，邮箱依据公开论文署名信息。<a href="https://cse.whu.edu.cn/szdw/jsml/wlkjaqx/fjsf_yjy_.htm">学院教师名录 ↗</a></p></div></section>
+<section class="page faculty-page">
+  <div class="faculty-header">
+    <figure class="faculty-photo"><img src="{{ '/assets/ren-yanzhen.jpg' | relative(page.url) }}" alt="任延珍老师照片" width="200" height="267"><figcaption>照片来源：学院官网</figcaption></figure>
+    <div><p class="eyebrow">FACULTY / WUHAN UNIVERSITY</p><h1>任延珍</h1><p class="faculty-english-name" lang="en">Yanzhen Ren</p><p class="lead">{{ faculty.role }}</p><p>{{ site.institution }}</p><p><span>邮箱：</span><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p><a class="button" href="{{ faculty.source }}">学院官方主页 ↗</a></div>
+  </div>
+  <nav class="toc" aria-label="个人页目录">{% for section in faculty.sections %}<a href="#{{ section.id }}">{{ section.title }}</a>{% endfor %}<a href="#publications">代表性研究</a></nav>
+  <div class="faculty-sections">{% for section in faculty.sections %}<section class="faculty-section" id="{{ section.id }}"><h2>{{ section.title }}</h2>{% for entry in section.entries %}<div class="faculty-entry{% if entry.period %} dated{% endif %}">{% if entry.period %}<span class="period">{{ entry.period }}</span>{% endif %}<p>{{ entry.text }}</p></div>{% endfor %}</section>{% endfor %}
+  <section class="faculty-section" id="publications"><h2>代表性研究</h2><p class="section-intro">以下选列本站已整理的相关成果，完整个人发表列表可查阅学院主页。</p><ul class="faculty-papers">{% for item in collections.published %}{% if item.page.fileSlug in ['rtcfake','pvp','tfcl','afpm','voxtracer'] %}<li><a href="{{ item.url | relative(page.url) }}">{{ item.data.title }}</a><span>{{ item.data.venue }} · {{ item.data.year }}</span></li>{% endif %}{% endfor %}</ul><a href="{{ '/publications/' | relative(page.url) }}">查看团队研究成果 →</a></section></div>
+  <p class="source"><span>本页依据学院官方个人主页整理；照片来自同一页面。资料核对：</span>{{ faculty.verified }} · <a href="{{ faculty.source }}">学院官方主页 ↗</a></p>
+</section>

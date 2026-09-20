@@ -39,7 +39,8 @@ README 是给维护者看的说明书，不是网站首页。github.com 是存�
 |---|---|
 | 实验室名称、介绍、方向概述、更新日期 | `src/_data/site.json` |
 | 实验室详细介绍 | `src/about.njk` |
-| 任延珍老师个人页 | `src/people/ren-yanzhen.njk` |
+| 任延珍老师个人介绍（中英文） | `src/_data/faculty.json`；Pages CMS 中选择“任延珍老师个人介绍” |
+| 老师照片与个人页排版 | `src/assets/ren-yanzhen.jpg`、`src/people/ren-yanzhen.njk` |
 | 一篇论文及对应开放资源 | `src/publications/英文短名.md` |
 | 网站外观 | `src/assets/academic.css` |
 | 栏目、导航等公共文字的中英文对应 | `src/_data/translations.json` |
