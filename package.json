@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "type": "module",
-  "description": "Lab 内容管理官网：Eleventy + Markdown + Pages CMS",
+  "description": "MMSLAB 内容管理官网：Eleventy + Markdown + Pages CMS",
   "packageManager": "pnpm@11.19.0",
   "engines": {
     "node": ">=24"
