@@ -1,23 +1,18 @@
 ---
-title: 基于潜空间迭代优化的鲁棒可证明安全图像隐写
+title: Robust Provably Secure Image Steganography via Latent Iterative Optimization
 year: 2026
 direction: hiding
 venue: ICASSP 2026
-status: 已发表
-authors: 'Yanan Li, Zixuan Wang, Qiyang Xiao, Yanzhen Ren'
-summary: 围绕生成式图像隐写中的安全性与鲁棒性，研究潜空间迭代优化方法。
+status: Published
+authors: Yanan Li, Zixuan Wang, Qiyang Xiao, Yanzhen Ren
+summary: Studies latent-space iterative optimization for security and robustness
+  in generative image steganography.
 featured: false
 draft: false
-paper: 'https://arxiv.org/abs/2603.09348'
-code: ''
-data: ''
-source: 公开论文及团队成果汇报
-titleEn: Robust Provably Secure Image Steganography via Latent Iterative Optimization
-summaryEn: >-
-  Studies latent-space iterative optimization for security and robustness in
-  generative image steganography.
-bodyEn: >-
-  Studies latent-space iterative optimization for security and robustness in
-  generative image steganography.
+paper: https://arxiv.org/abs/2603.09348
+code: ""
+data: ""
+source: Public papers and team research reports
 ---
-围绕生成式图像隐写中的安全性与鲁棒性，研究潜空间迭代优化方法。
+
+Studies latent-space iterative optimization for security and robustness in generative image steganography.

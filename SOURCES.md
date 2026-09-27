@@ -25,3 +25,27 @@
 下一轮内容维护重点：核实较早成果的 DOI 和链接；补充经确认的团队成员及历史信息隐藏论文；最新录用状态以会议、期刊或作者正式公开说明为准。
 
 2026-09-16 双语与资源版更新：五项开放资源的“问题、方法、内容、场景”依据上列 RTCFake、TFCL、PVP、PELM/AiEdit、MLD-VC 公开论文摘要及原项目入口重新整理；英文为网站介绍译文，不是论文原文引用。MLD-VC 年份依据 arXiv 提交记录修正为 2026。研究方向的细分描述依据既有成果范围整理，不作为新增论文或发布声明。
+
+
+## 2026-09-27 Original English paper titles
+
+Paper titles now follow publisher, conference, arXiv or author records instead of translated display names. Research summaries are editorial English overviews, not verbatim abstracts.
+
+- attention-mixup: https://ieeexplore.ieee.org/abstract/document/10096755/
+- afpm: https://ieeexplore.ieee.org/document/10376205/
+- apft: https://ieeexplore.ieee.org/document/11014245/
+- eat-aasist: https://ieeexplore.ieee.org/abstract/document/11464115
+- echofake: https://arxiv.org/abs/2510.19414
+- fa-gan: https://www.isca-archive.org/interspeech_2024/shen24b_interspeech.html
+- fcc-mf: https://cmsworkshops.com/ICASSP2024/papers/accepted_papers.php
+- gfc: https://link.springer.com/article/10.1186/s13636-025-00405-6
+- latent-image-steganography: https://arxiv.org/abs/2603.09348
+- mld-vc: https://arxiv.org/abs/2603.22915
+- pelm: https://arxiv.org/abs/2601.21463
+- proads: https://arxiv.org/abs/2603.10314
+- pvp: https://arxiv.org/abs/2605.17737
+- rtcfake: https://aclanthology.org/2026.findings-acl.285/
+- spa: https://arxiv.org/abs/2309.16265
+- tfcl: https://arxiv.org/abs/2607.17761
+- vfd-net: https://cmsworkshops.com/ICASSP2024/view_session.php?SessionID=1287
+- voxtracer: https://arxiv.org/abs/2305.05152

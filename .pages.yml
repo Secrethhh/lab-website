@@ -5,67 +5,130 @@ content:
     path: src/_data/faculty.json
     format: json
     fields:
-      - {name: role, label: 职称与导师资格, type: string}
-      - {name: roleEn, label: 职称与导师资格（英文）, type: string}
-      - {name: email, label: 联系邮箱, type: string}
-      - {name: verified, label: 资料核对日期, type: string}
-      - {name: source, label: 学院官方来源, type: string}
+      - name: role
+        label: 职称与导师资格
+        type: string
+      - name: roleEn
+        label: 职称与导师资格（英文）
+        type: string
+      - name: email
+        label: 联系邮箱
+        type: string
+      - name: verified
+        label: 资料核对日期
+        type: string
+      - name: source
+        label: 学院官方来源
+        type: string
       - name: sections
         label: 个人介绍栏目
         type: object
         list: true
         fields:
-          - {name: id, label: 栏目英文标识（保持不重复）, type: string}
-          - {name: title, label: 栏目标题, type: string}
-          - {name: titleEn, label: 栏目标题（英文）, type: string}
+          - name: id
+            label: 栏目英文标识（保持不重复）
+            type: string
+          - name: title
+            label: 栏目标题
+            type: string
+          - name: titleEn
+            label: 栏目标题（英文）
+            type: string
           - name: entries
             label: 内容条目
             type: object
             list: true
             fields:
-              - {name: period, label: 时间段（可不填）, type: string}
-              - {name: text, label: 中文内容, type: text}
-              - {name: textEn, label: 英文内容, type: text}
+              - name: period
+                label: 时间段（可不填）
+                type: string
+              - name: text
+                label: 中文内容
+                type: text
+              - name: textEn
+                label: 英文内容
+                type: text
   - name: publications
     label: 论文与成果
     type: collection
     path: src/publications
     format: yaml-frontmatter
-    filename: '{primary}.md'
+    filename: "{primary}.md"
     view:
       primary: title
-      fields: [title, year, direction, status, draft]
+      fields:
+        - title
+        - year
+        - direction
+        - status
+        - draft
     fields:
-      - {name: title, label: 成果标题, type: string, required: true}
-      - {name: titleEn, label: 英文标题, type: string, required: true}
-      - {name: year, label: 年份, type: number, required: true}
+      - name: title
+        label: 论文正式英文原题（与原文一致）
+        type: string
+        required: true
+      - name: year
+        label: 年份
+        type: number
+        required: true
       - name: direction
         label: 研究方向
         type: select
         required: true
         options:
           values:
-            - {name: security, label: 多媒体安全}
-            - {name: hiding, label: 信息隐藏}
-      - {name: venue, label: 会议或期刊, type: string}
-      - {name: status, label: 发表状态, type: string}
-      - {name: authors, label: 作者列表, type: string}
-      - {name: summary, label: 简介, type: text, required: true}
-      - {name: summaryEn, label: 英文简介, type: text, required: true}
-      - {name: featured, label: 首页重点展示, type: boolean, default: false}
-      - {name: draft, label: 草稿（不展示在网站）, type: boolean, default: true}
-      - {name: paper, label: 论文链接（HTTPS）, type: string}
-      - {name: code, label: 代码链接（HTTPS）, type: string}
-      - {name: data, label: 数据集链接（HTTPS）, type: string}
-      - {name: source, label: 信息依据, type: string}
-      - {name: resourceName, label: 资源简称（有代码或数据集时填写）, type: string}
-      - {name: problem, label: 研究问题（有资源时填写）, type: text}
-      - {name: problemEn, label: 研究问题（英文）, type: text}
-      - {name: method, label: 核心方法（有资源时填写）, type: text}
-      - {name: methodEn, label: 核心方法（英文）, type: text}
-      - {name: resourceDescription, label: 开放内容（说明具体提供什么）, type: text}
-      - {name: resourceDescriptionEn, label: 开放内容（英文）, type: text}
-      - {name: usage, label: 适用场景（有资源时填写）, type: text}
-      - {name: usageEn, label: 适用场景（英文）, type: text}
-      - {name: body, label: 详细介绍, type: rich-text}
-      - {name: bodyEn, label: 英文详细介绍, type: rich-text}
+            - name: security
+              label: 多媒体安全
+            - name: hiding
+              label: 信息隐藏
+      - name: venue
+        label: 会议或期刊
+        type: string
+      - name: status
+        label: 发表状态（英文，如 Published / Accepted / Preprint）
+        type: string
+      - name: authors
+        label: 作者列表
+        type: string
+      - name: summary
+        label: 英文研究简介（不要填写中文译文）
+        type: text
+        required: true
+      - name: featured
+        label: 首页重点展示
+        type: boolean
+        default: false
+      - name: draft
+        label: 草稿（不展示在网站）
+        type: boolean
+        default: true
+      - name: paper
+        label: 论文链接（HTTPS）
+        type: string
+      - name: code
+        label: 代码链接（HTTPS）
+        type: string
+      - name: data
+        label: 数据集链接（HTTPS）
+        type: string
+      - name: source
+        label: 信息依据
+        type: string
+      - name: resourceName
+        label: 资源简称（有代码或数据集时填写）
+        type: string
+      - name: problem
+        label: Research problem（英文）
+        type: text
+      - name: method
+        label: Method（英文）
+        type: text
+      - name: resourceDescription
+        label: Resources（英文）
+        type: text
+      - name: usage
+        label: Use cases（英文）
+        type: text
+      - name: body
+        label: 英文详细介绍
+        type: rich-text

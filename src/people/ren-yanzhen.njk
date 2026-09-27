@@ -3,10 +3,10 @@ layout: layout.njk
 title: 任延珍
 permalink: /people/ren-yanzhen/index.html
 ---
-<section class="page faculty-page">
-  <div class="faculty-header">
+<section class="page faculty-page"><p><a href="{{ '/about/' | relative(page.url) }}">← 团队介绍</a></p>
+  <h1>任延珍</h1><div class="faculty-header">
     <figure class="faculty-photo"><img src="{{ '/assets/ren-yanzhen.jpg' | relative(page.url) }}" alt="任延珍老师照片" width="200" height="267"></figure>
-    <div class="faculty-info"><h1>任延珍</h1><p class="faculty-english-name" lang="en">Yanzhen Ren</p><p class="lead">{{ faculty.role }}</p><p>{{ site.institution }}</p><p><span>邮箱：</span><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p><a class="button" href="{{ faculty.source }}">学院官方主页 ↗</a></div>
+    <div class="faculty-info"><p class="faculty-english-name" lang="en">Yanzhen Ren</p><p class="lead">{{ faculty.role }}</p><p>{{ site.institution }}</p><p><span>邮箱：</span><a href="mailto:{{ faculty.email }}">{{ faculty.email }}</a></p><a class="button" href="{{ faculty.source }}">学院官方主页 ↗</a></div>
   </div>
   <nav class="toc" aria-label="个人页目录">{% for section in faculty.sections %}<a href="#{{ section.id }}">{{ section.title }}</a>{% endfor %}<a href="#publications">代表性研究</a></nav>
   <div class="faculty-sections">{% for section in faculty.sections %}<section class="faculty-section" id="{{ section.id }}"><h2>{{ section.title }}</h2>{% for entry in section.entries %}<div class="faculty-entry{% if entry.period %} dated{% endif %}">{% if entry.period %}<span class="period">{{ entry.period }}</span>{% endif %}<p>{{ entry.text }}</p></div>{% endfor %}</section>{% endfor %}

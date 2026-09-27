@@ -1,23 +1,19 @@
 ---
-title: 语义相似度对齐的声音事件分类
+title: "Semantic Proximity Alignment: Towards Human Perception-consistent Audio
+  Tagging by Aligning with Label Text Description"
 year: 2024
 direction: security
-venue: 'ICASSP 2024, pp. 541–545'
-status: 已发表（据汇报）
-authors: 'W. Liu, Y. Ren'
-summary: 使用声音事件的自然语言描述表达类别间的语义关系，引导模型学习更符合人类感知的事件分类。
+venue: ICASSP 2024, pp. 541–545
+status: Published (team report)
+authors: W. Liu, Y. Ren
+summary: Natural-language descriptions express semantic relationships between
+  sound categories, guiding classification toward human perceptual similarity.
 featured: false
 draft: false
-paper: ''
-code: ''
-data: ''
-source: 团队成果汇报（发表信息待外部来源复核）
-titleEn: Semantic Proximity Alignment for Sound Event Classification
-summaryEn: >-
-  Natural-language descriptions express semantic relationships between sound
-  categories, guiding classification toward human perceptual similarity.
-bodyEn: >-
-  Natural-language descriptions express semantic relationships between sound
-  categories, guiding classification toward human perceptual similarity.
+paper: https://arxiv.org/abs/2309.16265
+code: ""
+data: ""
+source: https://arxiv.org/abs/2309.16265
 ---
-使用声音事件的自然语言描述表达类别间的语义关系，引导模型学习更符合人类感知的事件分类。
+
+Natural-language descriptions express semantic relationships between sound categories, guiding classification toward human perceptual similarity.

@@ -1,25 +1,20 @@
 ---
-title: FCC-MF：音视频多模态暴力事件检测
+title: "FCC-MF: Detecting Violence in Audio-Visual Context With Frame-Wise
+  Cluster Contrast and Modality-Stage Flooding"
 year: 2024
 direction: security
-venue: 'ICASSP 2024, pp. 8346–8350'
-status: 已发表（据汇报）
-authors: 'J. He, Y. Ren, L. Zhai, W. Liu'
-summary: 通过帧级聚类对比学习和模态阶梯式损失补偿，在弱监督条件下融合音频与视频信息，定位暴力事件。
+venue: ICASSP 2024, pp. 8346–8350
+status: Published (team report)
+authors: J. He, Y. Ren, L. Zhai, W. Liu
+summary: Frame-level clustering contrastive learning and modality-wise loss
+  compensation combine audio and video to localize violent events under weak
+  supervision.
 featured: false
 draft: false
-paper: ''
-code: ''
-data: ''
-source: 团队成果汇报（发表信息待外部来源复核）
-titleEn: 'FCC-MF: Audio-Visual Violence Detection'
-summaryEn: >-
-  Frame-level clustering contrastive learning and modality-wise loss
-  compensation combine audio and video to localize violent events under weak
-  supervision.
-bodyEn: >-
-  Frame-level clustering contrastive learning and modality-wise loss
-  compensation combine audio and video to localize violent events under weak
-  supervision.
+paper: ""
+code: ""
+data: ""
+source: https://cmsworkshops.com/ICASSP2024/papers/accepted_papers.php
 ---
-通过帧级聚类对比学习和模态阶梯式损失补偿，在弱监督条件下融合音频与视频信息，定位暴力事件。
+
+Frame-level clustering contrastive learning and modality-wise loss compensation combine audio and video to localize violent events under weak supervision.

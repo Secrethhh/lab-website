@@ -1,25 +1,20 @@
 ---
-title: APFT：实时抗压缩语音对抗样本研究
+title: "APFT: Adaptive Phoneme Filter Template to Generate Anti-Compression
+  Speech Adversarial Example in Real-Time"
 year: 2025
 direction: security
-venue: 'IEEE Transactions on Information Forensics and Security, 2025'
-status: 已发表（据汇报）
-authors: 'Y. Huang, Y. Ren, Z. Sun, et al.'
-summary: 基于音素模板研究语音识别系统在实时传输和压缩条件下的对抗鲁棒性。作者全表及卷页信息待补齐。
+venue: IEEE Transactions on Information Forensics and Security, 2025
+status: Published (team report)
+authors: Y. Huang, Y. Ren, Z. Sun, et al.
+summary: Phoneme templates are used to study adversarial robustness of speech
+  recognition under real-time transmission and compression. Full author and
+  bibliographic details remain to be confirmed.
 featured: false
 draft: false
-paper: ''
-code: ''
-data: ''
-source: 团队成果汇报（发表信息待外部来源复核）
-titleEn: 'APFT: Real-Time, Compression-Resistant Speech Adversarial Examples'
-summaryEn: >-
-  Phoneme templates are used to study adversarial robustness of speech
-  recognition under real-time transmission and compression. Full author and
-  bibliographic details remain to be confirmed.
-bodyEn: >-
-  Phoneme templates are used to study adversarial robustness of speech
-  recognition under real-time transmission and compression. Full author and
-  bibliographic details remain to be confirmed.
+paper: https://ieeexplore.ieee.org/document/11014245/
+code: ""
+data: ""
+source: https://ieeexplore.ieee.org/document/11014245/
 ---
-基于音素模板研究语音识别系统在实时传输和压缩条件下的对抗鲁棒性。作者全表及卷页信息待补齐。
+
+Phoneme templates are used to study adversarial robustness of speech recognition under real-time transmission and compression. Full author and bibliographic details remain to be confirmed.

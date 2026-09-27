@@ -71,33 +71,33 @@
   "historicalHiding": [
     {
       "title": "FastSPP",
-      "summary": "基于相同脉冲位置相关性的 AMR 隐写分析。",
-      "venue": "汇报列示：TIFS 2015"
+      "summary": "AMR steganalysis using correlations between identical pulse positions.",
+      "venue": "Listed in team report: TIFS 2015"
     },
     {
       "title": "MSDPD",
-      "summary": "基于基音周期二阶差分的 AMR 隐写分析。",
-      "venue": "汇报列示：TIFS 2017"
+      "summary": "AMR steganalysis based on second-order pitch-period differences.",
+      "venue": "Listed in team report: TIFS 2017"
     },
     {
       "title": "PDM-AFS",
-      "summary": "基于脉冲分布的安全 AMR 隐写。",
-      "venue": "汇报列示：TIFS 2019"
+      "summary": "Secure AMR steganography based on pulse distributions.",
+      "venue": "Listed in team report: TIFS 2019"
     },
     {
       "title": "MultiSpecNet",
-      "summary": "基于多尺度声谱网络的通用音频隐写分析。",
-      "venue": "汇报列示：TDSC 2023"
+      "summary": "Universal audio steganalysis using a multiscale spectrogram network.",
+      "venue": "Listed in team report: TDSC 2023"
     },
     {
       "title": "SPOM / PB-NOP",
-      "summary": "基于最优概率差异、分块局部最优特性的视频隐写分析。",
-      "venue": "汇报列示：IH 2014 / IH 2017"
+      "summary": "Video steganalysis based on optimal probability differences and block-wise local optimality.",
+      "venue": "Listed in team report: IH 2014 / IH 2017"
     },
     {
       "title": "MVC / GLO",
-      "summary": "基于多域一致性、泛化局部最优特性的视频运动矢量隐写分析。",
-      "venue": "汇报列示：TIFS 2020 / TDSC 2025"
+      "summary": "Motion-vector video steganalysis based on multi-domain consistency and generalized local optimality.",
+      "venue": "Listed in team report: TIFS 2020 / TDSC 2025"
     }
   ]
 }
