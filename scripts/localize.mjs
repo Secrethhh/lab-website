@@ -6,6 +6,8 @@ const dictionary=JSON.parse(fs.readFileSync('src/_data/translations.json','utf8'
 const faculty=JSON.parse(fs.readFileSync('src/_data/faculty.json','utf8'));
 dictionary[faculty.role]=faculty.roleEn;
 for(const section of faculty.sections){dictionary[section.title]=section.titleEn;for(const entry of section.entries)dictionary[entry.text]=entry.textEn;}
+const team=JSON.parse(fs.readFileSync('src/_data/team.json','utf8'));
+dictionary[`目前实验室博士 ${team.doctoral} 人，硕士 ${team.masters} 人。`]=`The lab currently has ${team.doctoral} doctoral students and ${team.masters} master's students.`;
 const site=JSON.parse(fs.readFileSync('src/_data/site.json','utf8'));
 for(const direction of site.directions)for(const area of direction.subareas||[])for(const key of ['title','description'])dictionary[area[key]]=area[key+'En'];
 // Translate longest phrases first so a short label cannot consume part of a heading.

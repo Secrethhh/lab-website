@@ -1,19 +1,22 @@
 ---
-title: "PRoADS: Provably Secure and Robust Audio Diffusion Steganography with
-  latent optimization and backward Euler Inversion"
+title: >-
+  PRoADS: Provably Secure and Robust Audio Diffusion Steganography with latent
+  optimization and backward Euler Inversion
 year: 2026
 direction: hiding
 venue: ICASSP 2026
 status: Published
-authors: YongPeng Yan, Yanan Li, Qiyang Xiao, Yanzhen Ren
-summary: Uses latent optimization and backward Euler inversion to study secure
-  message embedding and robust recovery in audio diffusion models.
-featured: true
+authors: 'YongPeng Yan, Yanan Li, Qiyang Xiao, Yanzhen Ren'
+summary: >-
+  Uses latent optimization and backward Euler inversion to study secure message
+  embedding and robust recovery in audio diffusion models.
+featured: false
 draft: false
-paper: https://arxiv.org/abs/2603.10314
-code: ""
-data: ""
+paper: 'https://arxiv.org/abs/2603.10314'
+code: ''
+data: ''
 source: Public papers and team research reports
+modality: audio
 ---
 
 ## Research question

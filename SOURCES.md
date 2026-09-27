@@ -52,3 +52,15 @@ Paper titles now follow publisher, conference, arXiv or author records instead o
 
 
 2026-09-28 News: 月份依据作者公开动态 https://www.junxue.tech/ ，挑战赛启动时间与组织人员依据 https://www.junxue.tech/rtc-sdd-challenge/ 。仅收录本团队相关论文和赛事；没有将合作者主页的所有工作视为实验室成果。字体、配色及基础排版数值核对自 https://github.com/JusperLee/jusperlee.github.io/blob/main/_sass/_variables.scss 与 _base.scss。
+
+## 2026-09-28 模态与代表作核实
+
+新增 AMR SPP（2015）、MSDPD（2017）、PDM（2019）、抗多格式压缩音频隐写（2025）、解耦音频隐写（2026）及 MVC（2020）。题名、作者、卷期年份交叉核对 DBLP 作者书目与 DOI；前三项与团队汇报对应。IEEE 页面存在机器人验证，未宣称读到付费全文，简介只概括标题及已提供材料支持的研究主题。
+
+- DBLP：https://dblp.org/pid/76/10143.html
+- 2025 音频：https://dblp.uni-trier.de/rec/journals/tifs/LiXWRW25.html
+- 2026 音频：https://dblp.uni-trier.de/rec/journals/tifs/LiXZRW26.html
+- MVC 共同作者学校主页：https://cs.ccnu.edu.cn/info/1158/8036.htm
+- MLD-VC 更新为 CVPR 2026 / Published：CVF 官方论文 https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_When_AVSR_Meets_Video_Conferencing_Dataset_Degradation_and_the_Hidden_CVPR_2026_paper.pdf ，作者数据集 https://huggingface.co/datasets/nccm2p2/MLD-VC 。
+
+四类目标每类 5–6 篇，当前 5/1/5/1；不能用在审或低于所选范围的会议论文补足。人数 x/y 为用户指定占位，不是实有人数。

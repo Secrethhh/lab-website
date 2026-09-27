@@ -1,19 +1,21 @@
 ---
-title: "EchoFake: A Replay-Aware Dataset for Practical Speech Deepfake Detection"
+title: 'EchoFake: A Replay-Aware Dataset for Practical Speech Deepfake Detection'
 year: 2026
 direction: security
-venue: ICASSP 2026；arXiv:2510.19414
+venue: ICASSP 2026
 status: Published
-authors: Tong Zhang, Yihuan Huang, Yanzhen Ren
-summary: Combines synthesized speech with recordings replayed through different
-  devices and environments to evaluate how offline detectors perform under
-  physical replay.
+authors: 'Tong Zhang, Yihuan Huang, Yanzhen Ren'
+summary: >-
+  Combines synthesized speech with recordings replayed through different devices
+  and environments to evaluate how offline detectors perform under physical
+  replay.
 featured: false
 draft: false
-paper: https://arxiv.org/abs/2510.19414
-code: ""
-data: ""
+paper: 'https://arxiv.org/abs/2510.19414'
+code: ''
+data: ''
 source: Public papers and team research reports
+modality: audio
 ---
 
 Combines synthesized speech with recordings replayed through different devices and environments to evaluate how offline detectors perform under physical replay.

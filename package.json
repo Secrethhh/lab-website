@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "eleventy --serve",
     "build": "node scripts/validate.mjs && node scripts/clean-output.mjs && eleventy",
-    "check": "node scripts/check-output.mjs"
+    "check": "node scripts/check-output.mjs && node scripts/check-selections.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "3.1.6",

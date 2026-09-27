@@ -11,28 +11,23 @@
       "subtitle": "MULTIMEDIA SECURITY",
       "description": "研究声音与视频内容理解、深度伪造检测、实时交互安全和对抗防御，关注技术在压缩、噪声和真实通信环境下的可靠性。",
       "topics": [
-        "音视频事件理解与定位",
-        "语音、人脸及多模态伪造检测",
-        "对抗防御与数字身份保护"
+        "语音安全",
+        "视频安全"
       ],
       "subareas": [
         {
-          "title": "音视频事件理解与定位",
-          "description": "研究一段音视频中发生了什么，以及事件出现的时间位置。相关工作涵盖声音事件分类与检测、音视频融合和弱监督事件定位。",
-          "titleEn": "Audio-visual event understanding and localization",
-          "descriptionEn": "Studies what happens in audio and video and when an event occurs. Related work covers sound event classification and detection, audio-visual fusion and weakly supervised localization."
+          "id": "audio",
+          "title": "语音安全",
+          "titleEn": "Speech and Audio Security",
+          "description": "围绕语音深度伪造检测、语音编辑定位、声纹保护与溯源开展研究，关注重放、压缩和实时通信对检测可靠性的影响。",
+          "descriptionEn": "Studies speech deepfake detection, speech-edit localization, voiceprint protection and speaker tracing, with attention to replay, compression and real-time communication."
         },
         {
-          "title": "语音、人脸及多模态伪造检测",
-          "description": "识别合成或篡改的数字内容，重点关注真实通话、物理重放与语音编辑等场景。通过专门的数据集和检测方法，研究跨平台与复杂干扰下的可靠性。",
-          "titleEn": "Speech, face and multimodal deepfake detection",
-          "descriptionEn": "Identifies synthesized or manipulated content, with particular attention to real calls, physical replay and speech editing. Task-specific datasets and detection methods support research on reliability across platforms and disturbances."
-        },
-        {
-          "title": "对抗防御与数字身份保护",
-          "description": "研究识别系统受到对抗扰动时的安全性，并探索语音身份的保护和溯源。相关工作包括声纹识别防御、抗压缩对抗样本和语音转换源说话人追踪。",
-          "titleEn": "Adversarial defense and digital identity protection",
-          "descriptionEn": "Studies recognition security under adversarial perturbations and explores voice identity protection and tracing. Related work includes speaker-recognition defense, compression-resistant adversarial examples and source tracing in voice conversion."
+          "id": "video",
+          "title": "视频安全",
+          "titleEn": "Video Security",
+          "description": "围绕视频及人脸伪造检测、人脸活体检测和身份保护开展研究，并探索音视频联合建模、事件理解与真实视频通话场景下的鲁棒性。",
+          "descriptionEn": "Studies video and facial deepfake detection, face liveness and identity protection, alongside audio-visual modeling, event understanding and robustness in real video calls."
         }
       ]
     },
@@ -42,28 +37,23 @@
       "subtitle": "INFORMATION HIDING",
       "description": "围绕音视频压缩参数域、隐写分析与神经网络信息隐藏，研究信息嵌入的隐蔽性、鲁棒性和可检测性。",
       "topics": [
-        "音视频压缩域隐写与隐写分析",
-        "基于神经网络的信息隐藏",
-        "生成式隐写与鲁棒性研究"
+        "语音信息隐藏",
+        "视频信息隐藏"
       ],
       "subareas": [
         {
-          "title": "音视频压缩域隐写与隐写分析",
-          "description": "在压缩音视频的参数和统计特征中研究信息嵌入与检测。已有工作涉及 AMR 音频脉冲分布、基音周期，以及视频运动矢量的一致性和局部最优性。",
-          "titleEn": "Compressed-domain audio-visual steganography and steganalysis",
-          "descriptionEn": "Studies message embedding and detection through the parameters and statistics of compressed media. Earlier work examines AMR pulse distributions, pitch periods, and consistency and local optimality of video motion vectors."
+          "id": "audio",
+          "title": "语音信息隐藏",
+          "titleEn": "Speech and Audio Information Hiding",
+          "description": "研究语音及音频中的隐写与隐写分析，涵盖 AMR 等压缩域中的信息嵌入与检测，以及生成式音频隐写的安全性和抗压缩能力。",
+          "descriptionEn": "Studies speech and audio steganography and steganalysis, including embedding and detection in compressed formats such as AMR, and security and compression robustness in generative audio steganography."
         },
         {
-          "title": "基于神经网络的信息隐藏",
-          "description": "利用学习模型探索信息嵌入和恢复，关注隐藏信息与媒体内容之间的关系。团队材料涉及基于 WaveGlow 的音频隐写与可逆神经网络图像隐写。",
-          "titleEn": "Neural information hiding",
-          "descriptionEn": "Uses learned models for message embedding and recovery, studying the relationship between hidden messages and media content. Team reports include WaveGlow-based audio steganography and invertible-network image steganography."
-        },
-        {
-          "title": "生成式隐写与鲁棒性研究",
-          "description": "结合图像与音频生成模型，在生成过程中嵌入信息，并研究安全性与恢复鲁棒性。近期工作包括音频扩散隐写和基于潜空间迭代优化的图像隐写。",
-          "titleEn": "Generative steganography and robustness",
-          "descriptionEn": "Explores message embedding during image and audio generation, with attention to security and robust recovery. Recent work includes audio diffusion steganography and image steganography using latent iterative optimization."
+          "id": "video",
+          "title": "视频信息隐藏",
+          "titleEn": "Video Information Hiding",
+          "description": "研究视频压缩域中的信息嵌入与隐写分析，重点关注运动矢量、多域一致性与局部最优性等特征，以及复杂传输条件下的隐蔽性和可检测性。",
+          "descriptionEn": "Studies embedding and steganalysis in compressed video, focusing on motion vectors, cross-domain consistency and local optimality, as well as concealment and detectability under transmission distortions."
         }
       ]
     }

@@ -1,4 +1,18 @@
 content:
+  - name: team
+    label: 团队人数
+    type: file
+    path: src/_data/team.json
+    format: json
+    fields:
+      - name: doctoral
+        label: 博士人数（暂用 x，确认后填写数字）
+        type: string
+        required: true
+      - name: masters
+        label: 硕士人数（暂用 y，确认后填写数字）
+        type: string
+        required: true
   - name: news
     label: 首页 News（2026 年）
     type: file
@@ -122,8 +136,20 @@ content:
               label: 多媒体安全
             - name: hiding
               label: 信息隐藏
+      - name: modality
+        label: 模态（人脸归视频；图像论文选图像）
+        type: select
+        required: true
+        options:
+          values:
+            - name: audio
+              label: 语音 / 音频
+            - name: video
+              label: 视频（含人脸与音视频）
+            - name: image
+              label: 图像
       - name: venue
-        label: 会议或期刊
+        label: 会议或期刊简称（如 TIFS / CVPR / ACM MM）
         type: string
       - name: status
         label: 发表状态（英文，如 Published / Accepted / Preprint）
@@ -136,7 +162,7 @@ content:
         type: text
         required: true
       - name: featured
-        label: 首页重点展示
+        label: 首页代表作（已录用或已发表，A 类会议 / TIFS）
         type: boolean
         default: false
       - name: draft

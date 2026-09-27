@@ -3,6 +3,8 @@ import matter from 'gray-matter';
 for (const file of fs.readdirSync('src/publications').filter(f=>f.endsWith('.md'))) {
  const {data,content}=matter(fs.readFileSync('src/publications/'+file,'utf8'));
  if (!data.title || !data.summary || !Number.isInteger(data.year) || data.year<1900 || data.year>2100 || !['security','hiding'].includes(data.direction)) throw Error('论文必填字段不完整或年份无效：'+file);
+ if(!['audio','video','image'].includes(data.modality))throw Error('请填写模态 audio/video/image：'+file);
+ if(data.featured&&(!/^(Published|Accepted)/.test(data.status)||!['audio','video'].includes(data.modality)))throw Error('首页代表作必须已发表或已录用，且归入语音或视频：'+file);
  if(typeof data.draft!=='boolean'||typeof data.featured!=='boolean')throw Error('draft/featured 必须为布尔值：'+file);
  for(const key of ['paper','code','data'])if(data[key]){const url=new URL(data[key]);if(url.protocol!=='https:')throw Error('资源必须使用 HTTPS：'+file);}
  if(!data.draft){
