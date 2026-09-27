@@ -12,7 +12,7 @@ featured: true
 draft: false
 paper: 'https://aclanthology.org/2026.findings-acl.285/'
 code: ''
-data: 'https://huggingface.co/datasets/JunXueTech/RTCFake'
+data: 'https://www.junxue.tech/RTCFake-demo/dataset.html'
 source: 公开论文及团队成果汇报
 titleEn: 'RTCFake: Speech Deepfake Detection in Real-Time Communication'
 summaryEn: >-
@@ -30,11 +30,11 @@ methodEn: >-
   Pairs speech before and after communication processing and applies
   phoneme-guided consistency learning to study generalization across platforms
   and disturbances.
-resourceDescription: 公开 RTCFake 数据集，提供面向真实通信场景的伪造语音检测研究数据；数据组织和获取方式见 Hugging Face 页面。
+resourceDescription: 公开 RTCFake 数据集，提供面向真实通信场景的伪造语音检测研究数据；数据组织和获取方式请查看链接中的数据集说明。
 resourceDescriptionEn: >-
   The RTCFake dataset provides research data for speech deepfake detection in
   real communication settings. Data organization and access instructions are
-  available on Hugging Face.
+  available in the linked dataset documentation.
 usage: 适合评估通话场景下的伪造检测、跨平台泛化，以及传输退化对模型的影响。
 usageEn: >-
   Useful for evaluating deepfake detection in calls, cross-platform
