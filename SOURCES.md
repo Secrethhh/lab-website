@@ -49,3 +49,6 @@ Paper titles now follow publisher, conference, arXiv or author records instead o
 - tfcl: https://arxiv.org/abs/2607.17761
 - vfd-net: https://cmsworkshops.com/ICASSP2024/view_session.php?SessionID=1287
 - voxtracer: https://arxiv.org/abs/2305.05152
+
+
+2026-09-28 News: 月份依据作者公开动态 https://www.junxue.tech/ ，挑战赛启动时间与组织人员依据 https://www.junxue.tech/rtc-sdd-challenge/ 。仅收录本团队相关论文和赛事；没有将合作者主页的所有工作视为实验室成果。字体、配色及基础排版数值核对自 https://github.com/JusperLee/jusperlee.github.io/blob/main/_sass/_variables.scss 与 _base.scss。

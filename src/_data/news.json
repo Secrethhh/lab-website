@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "date": "2026-09",
+      "icon": "📣",
+      "text": "Our team members are co-organizing the",
+      "title": "RTC-SDD Challenge",
+      "url": "https://www.junxue.tech/rtc-sdd-challenge/",
+      "suffix": "at ICASSP 2027. The progress evaluation stage started in September 2026.",
+      "source": "https://www.junxue.tech/rtc-sdd-challenge/",
+      "draft": false
+    },
+    {
+      "date": "2026-07",
+      "icon": "🎉",
+      "text": "Accepted to ACM MM 2026:",
+      "title": "Time-Frequency Consistency Learning for Robust Speech Deepfake Detection",
+      "url": "https://arxiv.org/abs/2607.17761",
+      "suffix": "",
+      "source": "https://www.junxue.tech/",
+      "draft": false
+    },
+    {
+      "date": "2026-05",
+      "icon": "🎉",
+      "text": "Accepted to IJCAI 2026:",
+      "title": "Profiling the Voice: Speaker-Specific Phoneme Fingerprinting for Speech Deepfake Detection",
+      "url": "https://arxiv.org/abs/2605.17737",
+      "suffix": "",
+      "source": "https://www.junxue.tech/",
+      "draft": false
+    },
+    {
+      "date": "2026-04",
+      "icon": "🎉",
+      "text": "Accepted to Findings of ACL 2026:",
+      "title": "RTCFake: Speech Deepfake Detection in Real-Time Communication",
+      "url": "https://aclanthology.org/2026.findings-acl.285/",
+      "suffix": "",
+      "source": "https://www.junxue.tech/",
+      "draft": false
+    },
+    {
+      "date": "2026-04",
+      "icon": "🎉",
+      "text": "Accepted to ICASSP 2026:",
+      "title": "Efficient Audio Transformer and AASIST for Environment Sound Deepfake Detection in the ESDD 2026 Challenge",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11464115",
+      "suffix": "",
+      "source": "https://www.junxue.tech/",
+      "draft": false
+    },
+    {
+      "date": "2026-03",
+      "icon": "🎉",
+      "text": "Accepted to CVPR 2026:",
+      "title": "When AVSR Meets Video Conferencing: Dataset, Degradation, and the Hidden Mechanism Behind Performance Collapse",
+      "url": "https://arxiv.org/abs/2603.22915",
+      "suffix": "",
+      "source": "https://www.junxue.tech/",
+      "draft": false
+    }
+  ]
+}

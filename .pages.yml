@@ -1,4 +1,45 @@
 content:
+  - name: news
+    label: 首页 News（2026 年）
+    type: file
+    path: src/_data/news.json
+    format: json
+    fields:
+      - name: items
+        label: 动态列表
+        type: object
+        list: true
+        fields:
+          - name: date
+            label: 年月（YYYY-MM，如 2026-09）
+            type: string
+            required: true
+          - name: icon
+            label: 图标（📣 活动 / 🎉 论文）
+            type: string
+          - name: text
+            label: 英文动态句子（链接前）
+            type: text
+            required: true
+          - name: title
+            label: 链接标题（论文使用原版英文题目）
+            type: string
+            required: true
+          - name: url
+            label: 公开页面链接（HTTPS）
+            type: string
+            required: true
+          - name: suffix
+            label: 补充说明（英文，可留空）
+            type: text
+          - name: source
+            label: 核实来源链接（不显示在前台）
+            type: string
+            required: true
+          - name: draft
+            label: 草稿（不展示）
+            type: boolean
+            default: true
   - name: faculty
     label: 任延珍老师个人介绍
     type: file

@@ -12,4 +12,12 @@ for (const file of fs.readdirSync('src/publications').filter(f=>f.endsWith('.md'
   if(!data.problem&&!content.trim())throw Error('请补充英文详细介绍：'+file);
  }
 }
-console.log('论文内容检查通过');
+const {items:news}=JSON.parse(fs.readFileSync('src/_data/news.json','utf8'));
+for(const item of news){
+ if(!/^\d{4}-(0[1-9]|1[0-2])$/.test(item.date)||typeof item.draft!=='boolean')throw Error('News 年月或草稿状态无效');
+ if(!item.draft){
+  for(const key of ['text','title','url','source'])if(!item[key])throw Error('News 缺少 '+key);
+  for(const key of ['url','source'])if(new URL(item[key]).protocol!=='https:')throw Error('News 链接必须使用 HTTPS');
+ }
+}
+console.log('论文与 News 内容检查通过');

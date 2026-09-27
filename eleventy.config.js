@@ -5,6 +5,9 @@ export default function(config) {
     localize();
   });
   config.addPassthroughCopy('src/assets');
+  config.addFilter('news2026',items=>items.filter(x=>!x.draft&&x.date.startsWith('2026-')).sort((a,b)=>b.date.localeCompare(a.date)));
+  config.addFilter('newsDate',date=>date.replace('-', '.'));
+
   config.addFilter('relative',(target,current='/')=>{
     const [url,hash]=target.split('#');
     const file=(url.endsWith('/')?url+'index.html':url);
