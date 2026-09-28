@@ -4,7 +4,7 @@ title: >-
   Deepfake Detection
 year: 2026
 direction: security
-venue: IJCAI 2026
+venue: IJCAI
 status: Accepted
 authors: >-
   Jun Xue, Tong Zhang, Zhuolin Yi, Yihuan Huang, Yi Chai, Yiyang Zhang, Yanzhen
@@ -33,6 +33,12 @@ usage: >-
   Useful for person-specific voice impersonation detection, phoneme-level
   evidence analysis and generalization to unseen spoofing attacks.
 modality: audio
+figure: /assets/papers/pvp.webp
+figureAlt: >-
+  Research figure for Profiling the Voice: Speaker-Specific Phoneme
+  Fingerprinting for Speech Deepfake Detection
+figureSource: 'G1 team research presentation, slide 63'
 ---
+
 
 

@@ -4,7 +4,7 @@ title: >-
   Mechanism Behind Performance Collapse
 year: 2026
 direction: security
-venue: CVPR 2026
+venue: CVPR
 status: Published
 authors: >-
   Yihuan Huang, Jun Xue, Liu Jiajun, Daixian Li, Tong Zhang, Zhuolin Yi, Yanzhen
@@ -37,6 +37,12 @@ usage: >-
   Useful for audio-visual speech recognition, cross-platform generalization and
   robustness in communication settings. Its primary task is recognition.
 modality: video
+figure: /assets/papers/mld-vc.webp
+figureAlt: >-
+  Research figure for When AVSR Meets Video Conferencing: Dataset, Degradation,
+  and the Hidden Mechanism Behind Performance Collapse
+figureSource: 'G1 team research presentation, slide 209'
 ---
+
 
 

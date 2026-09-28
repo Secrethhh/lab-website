@@ -4,7 +4,7 @@ title: >-
   Systems
 year: 2024
 direction: security
-venue: 'TIFS, 19:2273–2287'
+venue: TIFS
 status: Published (team report)
 authors: 'Z. Sun, Y. Ren, Y. Huang, W. Liu, H. Zhu'
 summary: >-
@@ -18,6 +18,12 @@ code: ''
 data: ''
 source: 'https://ieeexplore.ieee.org/document/10376205/'
 modality: audio
+figure: /assets/papers/afpm.webp
+figureAlt: >-
+  Research figure for AFPM: A Low-Cost and Universal Adversarial Defense for
+  Speaker Recognition Systems
+figureSource: 'G1 team research presentation, slide 136'
 ---
 
 Adaptive partial masking guided by F-ratio reconstructs input speech to reduce adversarial perturbations in speaker recognition, without additional model training.
+

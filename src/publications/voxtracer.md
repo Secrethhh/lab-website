@@ -4,7 +4,7 @@ title: >-
   Conversion
 year: 2023
 direction: security
-venue: 'ACM MM 2023, pp. 8674–8685'
+venue: ACM MM
 status: Published (team report)
 authors: 'Yanzhen Ren, Hongcheng Zhu, Liming Zhai, Zongkun Sun, Rubing Shen, Lina Wang'
 summary: >-
@@ -17,6 +17,12 @@ code: ''
 data: ''
 source: Public papers and team research reports
 modality: audio
+figure: /assets/papers/voxtracer.webp
+figureAlt: >-
+  Research figure for Who is Speaking Actually? Robust and Versatile Speaker
+  Traceability for Voice Conversion
+figureSource: 'G1 team research presentation, slide 163'
 ---
 
 Embeds source speaker identity in converted speech and recovers it after lossy audio compression, connecting information hiding with speech security.
+

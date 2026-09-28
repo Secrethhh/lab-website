@@ -35,6 +35,12 @@ usage: >-
   Useful for training and evaluation in speech tampering detection, edit-type
   identification and edited-content localization.
 modality: audio
+figure: /assets/papers/pelm.webp
+figureAlt: >-
+  Research figure for Unifying Speech Editing Detection and Content Localization
+  via Prior-Enhanced Audio LLMs
+figureSource: 'G1 team research presentation, slide 90'
 ---
+
 
 

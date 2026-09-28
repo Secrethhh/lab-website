@@ -4,7 +4,7 @@ title: >-
   Detection in the ESDD 2026 Challenge
 year: 2026
 direction: security
-venue: ICASSP 2026
+venue: ICASSP
 status: Published
 authors: 'J. Cao, C. Fan, J. Xue, Y. Xie, R. Fu, Z. Wen, J. Yi, Y. Ren, Z. Lv, J. Tao'
 summary: >-
@@ -18,6 +18,10 @@ code: ''
 data: ''
 source: 'IEEE Xplore: https://ieeexplore.ieee.org/abstract/document/11464115'
 modality: audio
+figure: /assets/papers/eat-aasist.webp
+figureAlt: EAT feature extractor and AASIST classifier architecture
+figureSource: 'G1 team research presentation, slide 76'
 ---
 
 Combines Efficient Audio Transformer and AASIST with semantically aligned data construction and compression augmentation to study generalization in environmental sound deepfake detection.
+

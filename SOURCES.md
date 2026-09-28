@@ -64,3 +64,27 @@ Paper titles now follow publisher, conference, arXiv or author records instead o
 - MLD-VC 更新为 CVPR 2026 / Published：CVF 官方论文 https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_When_AVSR_Meets_Video_Conferencing_Dataset_Degradation_and_the_Hidden_CVPR_2026_paper.pdf ，作者数据集 https://huggingface.co/datasets/nccm2p2/MLD-VC 。
 
 四类目标每类 5–6 篇，当前 5/1/5/1；不能用在审或低于所选范围的会议论文补足。人数 x/y 为用户指定占位，不是实有人数。
+
+## 2026-09-28 核心插图
+
+下列图片直接提取自用户提供的 PPT。EMF 仅转换为浏览器支持的 PNG，未生成或改画论文内容。
+
+- afpm: G1 team research presentation, slide 136 → `/assets/papers/afpm.png`
+- apft: G1 team research presentation, slide 125 → `/assets/papers/apft.png`
+- attention-mixup: G1 team research presentation, slide 2 → `/assets/papers/attention-mixup.png`
+- eat-aasist: G1 team research presentation, slide 76 → `/assets/papers/eat-aasist.png`
+- echofake: G1 team research presentation, slide 54 → `/assets/papers/echofake.png`
+- fcc-mf: G1 team research presentation, slide 20 → `/assets/papers/fcc-mf.png`
+- gfc: G1 team research presentation, slide 14 → `/assets/papers/gfc.png`
+- mld-vc: G1 team research presentation, slide 209 → `/assets/papers/mld-vc.png`
+- mvc: Existing work part 1 presentation, slide 8 → `/assets/papers/mvc.png`
+- pelm: G1 team research presentation, slide 90 → `/assets/papers/pelm.png`
+- pvp: G1 team research presentation, slide 63 → `/assets/papers/pvp.png`
+- rtcfake: G1 team research presentation, slide 103 → `/assets/papers/rtcfake.png`
+- spa: G1 team research presentation, slide 8 → `/assets/papers/spa.png`
+- tfcl: G1 team research presentation, slide 108 → `/assets/papers/tfcl.png`
+- voxtracer: G1 team research presentation, slide 163 → `/assets/papers/voxtracer.png`
+
+缺图保留论文（用户已确认）：amr-msdpd, amr-pdm, amr-spp, decoupled-audio-steganography, fa-gan, latent-image-steganography, proads, robust-audio-steganography, vfd-net。缺图栏只显示 Figure coming soon，不使用无关示意图。
+网页发布时将上述 PNG 无损导出为同名 .webp，原始内容与比例保留，论文 figure 字段指向 .webp。
+

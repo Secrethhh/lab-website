@@ -5,7 +5,7 @@ title: >-
 year: 2019
 direction: hiding
 modality: audio
-venue: 'TIFS 14(10):2649–2661'
+venue: TIFS
 status: Published
 authors: 'Yanzhen Ren, Hanyi Yang, Hongxia Wu, Weiping Tu, Lina Wang'
 summary: >-
@@ -17,6 +17,10 @@ paper: 'https://doi.org/10.1109/TIFS.2019.2905760'
 code: ''
 data: ''
 source: 'https://doi.org/10.1109/TIFS.2019.2905760'
+figure: ''
+figureAlt: ''
+figureSource: ''
 ---
 
 Studies secure message embedding in the AMR fixed codebook using a pulse distribution model.
+

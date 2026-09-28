@@ -4,7 +4,7 @@ title: >-
   optimization and backward Euler Inversion
 year: 2026
 direction: hiding
-venue: ICASSP 2026
+venue: ICASSP
 status: Published
 authors: 'YongPeng Yan, Yanan Li, Qiyang Xiao, Yanzhen Ren'
 summary: >-
@@ -17,6 +17,9 @@ code: ''
 data: ''
 source: Public papers and team research reports
 modality: audio
+figure: ''
+figureAlt: ''
+figureSource: ''
 ---
 
 ## Research question
@@ -30,3 +33,4 @@ PRoADS combines latent optimization and backward Euler inversion to explore robu
 ## Publication
 
 The work is listed in the official ICASSP 2026 program. The full paper is linked above.
+

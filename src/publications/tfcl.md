@@ -2,7 +2,7 @@
 title: Time-Frequency Consistency Learning for Robust Speech Deepfake Detection
 year: 2026
 direction: security
-venue: ACM MM 2026
+venue: ACM MM
 status: Accepted
 authors: >-
   Jun Xue, Zhuolin Yi, Yanzhen Ren, Yihuan Huang, Jiayu Xiong, Yi Chai,
@@ -33,6 +33,12 @@ usage: >-
   Useful for studying deepfake detection after acoustic front-end processing and
   comparing robustness across processing conditions.
 modality: audio
+figure: /assets/papers/tfcl.webp
+figureAlt: >-
+  Research figure for Time-Frequency Consistency Learning for Robust Speech
+  Deepfake Detection
+figureSource: 'G1 team research presentation, slide 108'
 ---
+
 
 

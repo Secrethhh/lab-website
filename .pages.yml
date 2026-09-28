@@ -1,3 +1,7 @@
+media:
+  input: src/assets/papers
+  output: /assets/papers
+
 content:
   - name: team
     label: 团队人数
@@ -156,6 +160,15 @@ content:
         type: string
       - name: authors
         label: 作者列表
+        type: string
+      - name: figure
+        label: 论文核心图（没有可留空）
+        type: image
+      - name: figureAlt
+        label: 插图英文说明
+        type: string
+      - name: figureSource
+        label: 插图来源（PPT 页码或论文图号，维护记录）
         type: string
       - name: summary
         label: 英文研究简介（不要填写中文译文）

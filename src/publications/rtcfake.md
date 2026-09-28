@@ -2,7 +2,7 @@
 title: 'RTCFake: Speech Deepfake Detection in Real-Time Communication'
 year: 2026
 direction: security
-venue: 'Findings of ACL 2026, pp. 5763–5775'
+venue: Findings of ACL
 status: Published
 authors: >-
   Jun Xue, Zhuolin Yi, Yihuan Huang, Yanzhen Ren, Yujie Chen, Cunhang Fan,
@@ -34,6 +34,12 @@ usage: >-
   Useful for evaluating deepfake detection in calls, cross-platform
   generalization and the effects of transmission degradation.
 modality: audio
+figure: /assets/papers/rtcfake.webp
+figureAlt: >-
+  Research figure for RTCFake: Speech Deepfake Detection in Real-Time
+  Communication
+figureSource: 'G1 team research presentation, slide 103'
 ---
+
 
 

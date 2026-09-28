@@ -5,7 +5,7 @@ title: >-
 year: 2025
 direction: hiding
 modality: audio
-venue: 'TIFS 20:12596–12608'
+venue: TIFS
 status: Published
 authors: 'Yanan Li, Qiyang Xiao, Zixuan Wang, Yanzhen Ren, Lina Wang'
 summary: >-
@@ -17,6 +17,10 @@ paper: 'https://doi.org/10.1109/TIFS.2025.3636668'
 code: ''
 data: ''
 source: 'https://doi.org/10.1109/TIFS.2025.3636668'
+figure: ''
+figureAlt: ''
+figureSource: ''
 ---
 
 Studies audio steganography with provable security and robustness to low-bitrate compression across multiple formats.
+
