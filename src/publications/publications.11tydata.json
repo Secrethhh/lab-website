@@ -1,1 +1,4 @@
-{"tags":"paper","layout":"paper.njk","permalink":"/publications/{{ page.fileSlug }}/index.html"}
+{
+  "tags": "paper",
+  "permalink": false
+}

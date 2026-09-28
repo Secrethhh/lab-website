@@ -11,7 +11,7 @@ for(const lang of ['', 'en/']){
   assert(section,`Missing group: ${id}`);
   const expected=papers.filter(p=>p.featured&&p.direction===direction&&p.modality===modality&&/^(Published|Accepted)/.test(p.status));
   assert.equal((section.match(/class="paper-row"/g)||[]).length,expected.length);
-  for(const p of expected)assert(section.includes(`publications/${p.slug}/index.html`));
+  for(const p of expected)assert(section.includes(`data-paper="${p.slug}"`));
   assert(!section.includes('Preprint'));
  }
 }
