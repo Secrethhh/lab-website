@@ -8,7 +8,9 @@
       "url": "https://www.junxue.tech/rtc-sdd-challenge/",
       "suffix": "at ICASSP 2027. The progress evaluation stage started in September 2026.",
       "source": "https://www.junxue.tech/rtc-sdd-challenge/",
-      "draft": false
+      "draft": false,
+      "textZh": "团队成员共同组织",
+      "suffixZh": "，该挑战赛隶属于 ICASSP 2027，阶段评测已于 2026 年 9 月启动。"
     },
     {
       "date": "2026-07",
@@ -18,7 +20,9 @@
       "url": "https://arxiv.org/abs/2607.17761",
       "suffix": "",
       "source": "https://www.junxue.tech/",
-      "draft": false
+      "draft": false,
+      "textZh": "论文获 ACM MM 2026 录用：",
+      "suffixZh": ""
     },
     {
       "date": "2026-05",
@@ -28,7 +32,9 @@
       "url": "https://arxiv.org/abs/2605.17737",
       "suffix": "",
       "source": "https://www.junxue.tech/",
-      "draft": false
+      "draft": false,
+      "textZh": "论文获 IJCAI 2026 录用：",
+      "suffixZh": ""
     },
     {
       "date": "2026-04",
@@ -38,7 +44,9 @@
       "url": "https://aclanthology.org/2026.findings-acl.285/",
       "suffix": "",
       "source": "https://www.junxue.tech/",
-      "draft": false
+      "draft": false,
+      "textZh": "论文获 Findings of ACL 2026 录用：",
+      "suffixZh": ""
     },
     {
       "date": "2026-04",
@@ -48,7 +56,9 @@
       "url": "https://ieeexplore.ieee.org/abstract/document/11464115",
       "suffix": "",
       "source": "https://www.junxue.tech/",
-      "draft": false
+      "draft": false,
+      "textZh": "论文获 ICASSP 2026 录用：",
+      "suffixZh": ""
     },
     {
       "date": "2026-03",
@@ -58,7 +68,9 @@
       "url": "https://arxiv.org/abs/2603.22915",
       "suffix": "",
       "source": "https://www.junxue.tech/",
-      "draft": false
+      "draft": false,
+      "textZh": "论文获 CVPR 2026 录用：",
+      "suffixZh": ""
     }
   ]
 }
