@@ -225,7 +225,6 @@ https://secrethhh.github.io/lab-website/
 | `src/_data/faculty.json` | 老师个人介绍的中英文内容 |
 | `src/_data/site.json` | 实验室简介、方向信息、网站更新日期 |
 | `src/_data/translations.json` | 公共文字的中文与英文对应关系 |
-| `src/about.njk` | 团队详细介绍页面 |
 | `src/people/ren-yanzhen.njk` | 老师个人页排版与代表成果选列 |
 | `src/_includes/layout.njk` | 所有页面共用的导航、页头和页尾 |
 | `src/assets/academic.css` | 当前网站样式 |
