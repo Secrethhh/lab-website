@@ -1,5 +1,9 @@
 import path from 'node:path';
+import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 export default function(config) {
+  // A content hash makes browsers fetch fresh CSS whenever styles change.
+  config.addGlobalData('styleVersion', () => createHash('sha256').update(fs.readFileSync('src/assets/academic.css')).digest('hex').slice(0,12));
   config.on('eleventy.after',async()=>{
     const {localize}=await import('./scripts/localize.mjs');
     localize();
