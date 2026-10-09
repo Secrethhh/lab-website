@@ -30,3 +30,6 @@ footer{border-top:1px solid var(--line);padding:25px max(34px,calc((100vw - 1212
 
 /* Keep navigation visible and reserve its actual height for anchor jumps. */
 html{scroll-padding-top:calc(var(--masthead-height,160px) + 16px)}.masthead{position:sticky;top:0;z-index:100}.lab-sidebar{top:calc(var(--masthead-height,80px) + 28px)}
+
+/* Selected publication group headings sit between section titles and body text. */
+.selected-group > h3.year{font-size:1.1rem;line-height:1.4}
