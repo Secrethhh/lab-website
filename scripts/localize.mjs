@@ -3,6 +3,8 @@ import path from 'node:path';
 export function localize() {
 const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 const dictionary=JSON.parse(fs.readFileSync('src/_data/translations.json','utf8'));
+const news=JSON.parse(fs.readFileSync('src/_data/news.json','utf8'));
+for(const item of news.items){if(item.textZh)dictionary[item.textZh]=item.text;if(item.suffixZh)dictionary[item.suffixZh]=item.suffix;}
 const faculty=JSON.parse(fs.readFileSync('src/_data/faculty.json','utf8'));
 dictionary[faculty.role]=faculty.roleEn;
 for(const section of faculty.sections){dictionary[section.title]=section.titleEn;for(const entry of section.entries)dictionary[entry.text]=entry.textEn;}
