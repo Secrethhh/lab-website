@@ -121,5 +121,5 @@
   "多媒体安全：": "Multimedia security: ",
   "信息隐藏：": "Information hiding: ",
   "涵盖语音安全与视频安全，研究语音及视频（含人脸）深度伪造检测、内容理解、对抗防御与身份保护，关注真实通信场景下的可靠性。": "Covering speech and video security, we study speech and video (including facial) deepfake detection, content understanding, adversarial defense and identity protection, with an emphasis on reliability in real-world communication.",
-  "涵盖语音信息隐藏与视频信息隐藏，研究压缩域隐写、隐写分析及神经网络信息隐藏。": "Covering speech and video information hiding, we study compressed-domain steganography, steganalysis and neural-network-based information hiding."
+  "涵盖语音信息隐藏与视频信息隐藏，研究压缩域隐写、隐写分析及神经网络信息隐藏等。": "Covering speech and video information hiding, we study compressed-domain steganography, steganalysis and neural-network-based information hiding."
 }
