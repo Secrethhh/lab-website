@@ -35,6 +35,12 @@ content:
           - name: icon
             label: 图标（📣 活动 / 🎉 论文）
             type: string
+          - name: textZh
+            label: 中文动态句子（链接前，论文题目仍用英文）
+            type: text
+          - name: suffixZh
+            label: 中文补充说明（可留空）
+            type: text
           - name: text
             label: 英文动态句子（链接前）
             type: text
