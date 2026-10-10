@@ -20,7 +20,14 @@ export default function(config) {
   });
   config.addFilter('direction',(items,id)=>items.filter(p=>p.data.direction===id));
   config.addFilter('modality',(items,id)=>items.filter(p=>p.data.modality===id));
-  config.addFilter('years',items=>[...new Set(items.map(p=>p.data.year))].sort((a,b)=>b-a).map(year=>({year,papers:items.filter(p=>p.data.year===year)})));
+  config.addFilter('years',items=>{
+    const sorted=[...items].sort((a,b)=>b.data.year-a.data.year);
+    const groups=[...new Set(sorted.filter(p=>p.data.year>2020).map(p=>p.data.year))]
+      .map(year=>({year,papers:sorted.filter(p=>p.data.year===year)}));
+    const earlier=sorted.filter(p=>p.data.year<=2020);
+    if(earlier.length)groups.push({year:'2020 及以前',papers:earlier});
+    return groups;
+  });
   const published=api=>api.getFilteredByTag('paper').filter(p=>!p.data.draft).sort((a,b)=>b.data.year-a.data.year||a.data.title.localeCompare(b.data.title));
   config.addCollection('published',published);
   config.addCollection('featured',api=>published(api).filter(p=>p.data.featured && /^(Published|Accepted)/.test(p.data.status)));
