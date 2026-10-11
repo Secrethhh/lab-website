@@ -15,9 +15,9 @@ code: ''
 data: ''
 source: Public papers and team research reports
 modality: image
-figure: ''
-figureAlt: ''
-figureSource: ''
+figure: /assets/papers/latent-image-steganography.webp
+figureAlt: 'Image steganography framework with diffusion generation, transmission and latent-space iterative optimization for message recovery.'
+figureSource: 'Original paper PDF supplied by the team, Figure 1, PDF page 2'
 ---
 
 Studies latent-space iterative optimization for security and robustness in generative image steganography.

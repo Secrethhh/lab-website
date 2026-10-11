@@ -18,8 +18,8 @@ data: ''
 source: Public papers and team research reports
 modality: audio
 figure: /assets/papers/proads.webp
-figureAlt: 'PRoADS framework combining message embedding, diffusion generation, latent optimization and backward Euler inversion.'
-figureSource: 'G2-XXYC组工作整理.pptx, slide 13; embedded original framework image'
+figureAlt: 'PRoADS framework combining diffusion generation, latent optimization and backward Euler inversion.'
+figureSource: 'Original paper PDF supplied by the team, Figure 1, PDF page 2'
 ---
 
 ## Research question
