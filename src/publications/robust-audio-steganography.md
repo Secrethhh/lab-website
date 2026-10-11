@@ -17,9 +17,9 @@ paper: 'https://doi.org/10.1109/TIFS.2025.3636668'
 code: ''
 data: ''
 source: 'https://doi.org/10.1109/TIFS.2025.3636668'
-figure: ''
-figureAlt: ''
-figureSource: ''
+figure: /assets/papers/robust-audio-steganography.webp
+figureAlt: 'Framework for secure audio steganography with message embedding, diffusion generation, recompression and extraction.'
+figureSource: 'G2-XXYC组工作整理.pptx, slide 2; embedded original framework image'
 ---
 
 Studies audio steganography with provable security and robustness to low-bitrate compression across multiple formats.
