@@ -33,5 +33,5 @@ html{scroll-padding-top:calc(var(--masthead-height,160px) + 16px)}.masthead{posi
 
 .resource-badge.demo-badge span+span{background:#4b9900}
 
-/* Center lab identity within the visible desktop sidebar below navigation. */
-@media(min-width:761px){.lab-sidebar{top:calc(var(--masthead-height,80px) + 40px);min-height:calc(100dvh - var(--masthead-height,80px) - 80px);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}.lab-sidebar .lab-emblem{max-width:100%;margin-top:0}.lab-sidebar .sidebar-links{text-align:left;max-width:100%;margin-bottom:0;overflow-wrap:anywhere}.lab-sidebar .sidebar-links li:last-child{margin-bottom:0}}
+/* Keep lab identity horizontally centered and above the vertical midpoint. */
+@media(min-width:761px){.lab-sidebar{top:calc(var(--masthead-height,80px) + 40px);min-height:calc(100dvh - var(--masthead-height,80px) - 80px - clamp(80px,16dvh,160px));display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}.lab-sidebar .lab-emblem{max-width:100%;margin-top:0}.lab-sidebar .sidebar-links{text-align:left;max-width:100%;margin-bottom:0;overflow-wrap:anywhere}.lab-sidebar .sidebar-links li:last-child{margin-bottom:0}}
