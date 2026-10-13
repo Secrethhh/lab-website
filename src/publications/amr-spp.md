@@ -9,7 +9,7 @@ authors: 'Yanzhen Ren, Tingting Cai, Ming Tang, Lina Wang'
 summary: >-
   Detects hidden information in AMR audio using the probability of identical
   pulse positions.
-featured: true
+featured: false
 draft: false
 paper: 'https://doi.org/10.1109/TIFS.2015.2421322'
 code: ''
