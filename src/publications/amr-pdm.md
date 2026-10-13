@@ -11,7 +11,7 @@ authors: 'Yanzhen Ren, Hanyi Yang, Hongxia Wu, Weiping Tu, Lina Wang'
 summary: >-
   Studies secure message embedding in the AMR fixed codebook using a pulse
   distribution model.
-featured: true
+featured: false
 draft: false
 paper: 'https://doi.org/10.1109/TIFS.2019.2905760'
 code: ''
