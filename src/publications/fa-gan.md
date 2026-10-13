@@ -16,9 +16,9 @@ code: ''
 data: ''
 source: Public papers and team research reports
 modality: audio
-figure: ''
-figureAlt: ''
-figureSource: ''
+figure: /assets/papers/fa-gan.webp
+figureAlt: 'FA-GAN architecture with an anti-aliased generator, global discriminator and local discriminator.'
+figureSource: 'Original paper PDF supplied by the team, Figure 1, PDF page 2'
 ---
 
 Upsampling design and phase-aware losses reduce synthesis artifacts for high-fidelity speech generation, supporting research in multimedia intelligence.

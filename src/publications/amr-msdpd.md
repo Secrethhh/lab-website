@@ -13,9 +13,9 @@ paper: 'https://doi.org/10.1109/TIFS.2016.2636087'
 code: ''
 data: ''
 source: 'https://doi.org/10.1109/TIFS.2016.2636087'
-figure: ''
-figureAlt: ''
-figureSource: ''
+figure: /assets/papers/amr-msdpd.webp
+figureAlt: 'C-MSDPD feature extraction comparing pitch-delay features from original and recompressed AMR audio.'
+figureSource: 'Original paper PDF supplied by the team, Figure 7, PDF page 7'
 ---
 
 Studies AMR steganalysis through second-order differences of pitch delay.

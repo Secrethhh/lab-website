@@ -17,9 +17,9 @@ paper: 'https://doi.org/10.1109/TIFS.2019.2905760'
 code: ''
 data: ''
 source: 'https://doi.org/10.1109/TIFS.2019.2905760'
-figure: ''
-figureAlt: ''
-figureSource: ''
+figure: /assets/papers/amr-pdm.webp
+figureAlt: 'PDM-AFS embedding process with AMR fixed codebook search and secret message preprocessing, encoding, randomization and scrambling.'
+figureSource: 'Original paper PDF supplied by the team, Figure 6, PDF page 6'
 ---
 
 Studies secure message embedding in the AMR fixed codebook using a pulse distribution model.

@@ -15,9 +15,9 @@ paper: 'https://doi.org/10.1109/TIFS.2015.2421322'
 code: ''
 data: ''
 source: 'https://doi.org/10.1109/TIFS.2015.2421322'
-figure: ''
-figureAlt: ''
-figureSource: ''
+figure: /assets/papers/amr-spp.webp
+figureAlt: 'Fast-SPP feature extraction from AMR subframes and pulse positions across tracks.'
+figureSource: 'Original paper PDF supplied by the team, Figure 6, PDF page 7'
 ---
 
 Detects hidden information in AMR audio using the probability of identical pulse positions.
