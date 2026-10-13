@@ -32,3 +32,7 @@ html{scroll-padding-top:calc(var(--masthead-height,160px) + 16px)}.masthead{posi
 .lab-emblem{width:210px;height:auto;display:block;border:0;border-radius:0;background:#fff}.lab-emblem img{display:block;width:100%;height:auto;object-fit:contain}@media(max-width:760px){.lab-emblem{width:76px;height:auto;align-self:start}}
 
 .resource-badge.demo-badge span+span{background:#4b9900}
+
+/* Publication archive separators; the first paper supplies the line below each year. */
+.page > h2.year{border-top:1px solid #eceeef;border-bottom:0;padding-top:.8em;margin-bottom:0}
+.page > h2.year + .paper-list > .paper-row{border-top:1px solid #eceeef}
