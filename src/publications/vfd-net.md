@@ -15,9 +15,9 @@ code: ''
 data: ''
 source: 'https://cmsworkshops.com/ICASSP2024/view_session.php?SessionID=1287'
 modality: audio
-figure: ''
-figureAlt: ''
-figureSource: ''
+figure: /assets/papers/vfd-net.webp
+figureAlt: 'VFD-Net framework with spectrogram patch selection, an encoder, supervised contrastive learning and vocoder classification.'
+figureSource: 'Original paper PDF supplied by the team, Figure 2, PDF page 2'
 ---
 
 Uses fingerprints left by speech synthesis vocoders to detect fake speech and attribute it to vocoder architectures.
