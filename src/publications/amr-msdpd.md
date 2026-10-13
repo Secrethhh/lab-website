@@ -7,7 +7,7 @@ venue: TIFS
 status: Published
 authors: 'Yanzhen Ren, Jing Yang, Jinwei Wang, Lina Wang'
 summary: Studies AMR steganalysis through second-order differences of pitch delay.
-featured: true
+featured: false
 draft: false
 paper: 'https://doi.org/10.1109/TIFS.2016.2636087'
 code: ''
