@@ -10,7 +10,7 @@ summary: >-
   attribute it to vocoder architectures.
 featured: false
 draft: false
-paper: ''
+paper: 'https://doi.org/10.1109/ICASSP48485.2024.10446798'
 code: ''
 data: ''
 source: 'https://cmsworkshops.com/ICASSP2024/view_session.php?SessionID=1287'
@@ -21,4 +21,3 @@ figureSource: ''
 ---
 
 Uses fingerprints left by speech synthesis vocoders to detect fake speech and attribute it to vocoder architectures.
-
