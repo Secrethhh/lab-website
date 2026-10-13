@@ -15,6 +15,7 @@ featured: false
 draft: false
 paper: 'https://aclanthology.org/2026.findings-acl.285/'
 code: ''
+demo: 'https://www.junxue.tech/RTCFake-demo/dataset.html'
 data: 'https://www.junxue.tech/RTCFake-demo/dataset.html'
 source: Public papers and team research reports
 resourceName: RTCFake
@@ -40,6 +41,3 @@ figureAlt: >-
   Communication
 figureSource: 'G1 team research presentation, slide 103'
 ---
-
-
-
