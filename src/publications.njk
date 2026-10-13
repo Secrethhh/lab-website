@@ -3,4 +3,4 @@ layout: layout.njk
 title: 研究成果
 permalink: /publications/index.html
 ---
-<section class="page"><p class="eyebrow">PUBLICATIONS</p><h1><span aria-hidden="true">📚</span> 研究成果</h1>{% for group in collections.published | years %}<h2 class="year">{{ group.year }}</h2>{% set items = group.papers %}{% include 'cards.njk' %}{% endfor %}</section>
+<section class="page">{% for group in collections.published | years %}<h2 class="year">{{ group.year }}</h2>{% set items = group.papers %}{% include 'cards.njk' %}{% endfor %}</section>
