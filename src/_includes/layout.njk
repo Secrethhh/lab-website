@@ -21,4 +21,22 @@ document.querySelectorAll('a[href]').forEach(link => {
   }
 });
 </script>
+<div class="horizontal-scroll-control" hidden><input type="range" min="0" max="0" value="0" step="1" aria-label="Scroll page horizontally"></div>
+<script>
+const horizontalControl = document.querySelector('.horizontal-scroll-control');
+const horizontalSlider = horizontalControl.querySelector('input');
+const desktopPointer = matchMedia('(any-hover: hover) and (any-pointer: fine)');
+function updateHorizontalControl() {
+  const max = Math.max(0, document.documentElement.scrollWidth - document.documentElement.clientWidth);
+  horizontalControl.hidden = !desktopPointer.matches || max < 2;
+  horizontalSlider.max = max;
+  horizontalSlider.value = window.scrollX;
+}
+horizontalSlider.addEventListener('input', () => window.scrollTo({left: Number(horizontalSlider.value), top: window.scrollY, behavior: 'instant'}));
+window.addEventListener('scroll', () => { horizontalSlider.value = window.scrollX; }, {passive: true});
+window.addEventListener('resize', updateHorizontalControl);
+desktopPointer.addEventListener('change', updateHorizontalControl);
+if (window.ResizeObserver) new ResizeObserver(updateHorizontalControl).observe(document.body);
+updateHorizontalControl();
+</script>
 </body></html>
