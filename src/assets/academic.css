@@ -38,4 +38,4 @@ html{scroll-padding-top:calc(var(--masthead-height,160px) + 16px)}.masthead{posi
 .page > h2.year + .paper-list > .paper-row{border-top:1px solid #eceeef}
 
 /* Balanced desktop gutters keep paper text away from the window edges. */
-@media(min-width:1101px){.site-shell,.masthead-inner{width:88%;max-width:1200px;padding-left:0;padding-right:0}}
+@media(min-width:1101px){.site-shell,.masthead-inner{width:82%;max-width:1200px;padding-left:0;padding-right:0}}
