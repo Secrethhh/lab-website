@@ -40,5 +40,12 @@ html{scroll-padding-top:calc(var(--masthead-height,160px) + 16px)}.masthead{posi
 /* Balanced desktop gutters keep paper text away from the window edges. */
 @media(min-width:1101px){.site-shell,.masthead-inner{width:82%;max-width:1200px;padding-left:0;padding-right:0}}
 
+
 /* Mouse-operated narrow windows retain the desktop layout and native bottom scrollbar. */
-@media(hover:hover) and (pointer:fine) and (max-width:1100px){html{overflow-x:auto}body{min-width:1100px}.site-shell,.masthead-inner{width:100%;padding-left:40px;padding-right:40px}.paper-row{grid-template-columns:minmax(0,40%) minmax(0,1fr);gap:28px}}
+@media(any-hover:hover) and (any-pointer:fine) and (max-width:1100px){html{overflow-x:auto}body{min-width:1100px}.site-shell,.masthead-inner{width:100%;padding-left:40px;padding-right:40px}.paper-row{grid-template-columns:minmax(0,40%) minmax(0,1fr);gap:28px}}
+.horizontal-scroll-control{position:fixed;left:0;right:0;bottom:0;height:24px;z-index:200;background:#f1f1f1;border-top:1px solid #d1d1d1;padding:3px 10px}
+.horizontal-scroll-control[hidden]{display:none}
+.horizontal-scroll-control input{display:block;width:100%;height:17px;margin:0;appearance:none;background:#e1e1e1;border-radius:4px;cursor:ew-resize}
+.horizontal-scroll-control input::-webkit-slider-thumb{appearance:none;width:70px;height:13px;border-radius:4px;background:#888;border:1px solid #777}
+.horizontal-scroll-control input::-moz-range-thumb{width:70px;height:13px;border-radius:4px;background:#888;border:1px solid #777}
+@media(any-hover:hover) and (any-pointer:fine) and (max-width:1100px){body{padding-bottom:24px}}
