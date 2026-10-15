@@ -7,11 +7,14 @@ for (const file of fs.readdirSync('src/publications').filter(f=>f.endsWith('.md'
  if(data.featured&&(!/^(Published|Accepted)/.test(data.status)||!['audio','video'].includes(data.modality)))throw Error('首页代表作必须已发表或已录用，且归入语音或视频：'+file);
  if(data.figure&&(!data.figure.startsWith('/assets/papers/')||data.figure.includes('..')||!fs.existsSync('src'+data.figure)||!data.figureAlt))throw Error('插图路径不存在或缺少英文说明：'+file);
  if(typeof data.draft!=='boolean'||typeof data.featured!=='boolean')throw Error('draft/featured 必须为布尔值：'+file);
- for(const key of ['paper','code','data'])if(data[key]){const url=new URL(data[key]);if(url.protocol!=='https:')throw Error('资源必须使用 HTTPS：'+file);}
+ for(const key of ['paper','code','data','demo'])if(data[key]){const url=new URL(data[key]);if(url.protocol!=='https:')throw Error('资源必须使用 HTTPS：'+file);}
+ if(data.datasets){
+  if(!Array.isArray(data.datasets))throw Error('datasets 必须为列表：'+file);
+  for(const dataset of data.datasets)if(!dataset.name||!dataset.url||new URL(dataset.url).protocol!=='https:')throw Error('数据集需要名称与 HTTPS 链接：'+file);
+ }
  if(!data.draft){
   for(const key of ['title','summary','problem','method','resourceDescription','usage'])if(data[key]&&/[\u4e00-\u9fff]/.test(data[key]))throw Error('论文内容请填写英文 '+key+'：'+file);
   if(/[\u4e00-\u9fff]/.test(content))throw Error('论文详细介绍请填写英文：'+file);
-  if(data.code||data.data)for(const key of ['resourceName','problem','method','resourceDescription','usage'])if(!data[key])throw Error('开放资源说明未填完整 '+key+'：'+file);
   if(!data.problem&&!content.trim())throw Error('请补充英文详细介绍：'+file);
  }
 }
