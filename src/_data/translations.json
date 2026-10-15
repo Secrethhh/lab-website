@@ -126,5 +126,6 @@
   "与": " and ",
   "，研究语音及视频（含人脸）深度伪造检测、内容理解、对抗防御与身份保护，关注真实通信场景下的可靠性。": ", we study speech and video (including facial) deepfake detection, content understanding, adversarial defense and identity protection, with an emphasis on reliability in real-world communication.",
   "，研究压缩域隐写、隐写分析及神经网络信息隐藏等。": ", we study compressed-domain steganography, steganalysis and neural-network-based information hiding, among other topics.",
-  "2020 及以前": "2020 and Earlier"
+  "2020 及以前": "2020 and Earlier",
+  "MMSLAB 多媒体安全实验室由任延珍教授负责，依托武汉大学国家网络安全学院，围绕多媒体安全与信息隐藏开展研究，关注语音、视频等多媒体内容的真实性、安全性与信息保护。": "Led by Professor Yanzhen Ren at the School of Cyber Science and Engineering, Wuhan University, MMSLAB studies multimedia security and information hiding, focusing on the authenticity, security and protection of speech, video and other multimedia content."
 }

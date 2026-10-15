@@ -7,6 +7,8 @@ export default function(config) {
   config.on('eleventy.after',async()=>{
     const {localize}=await import('./scripts/localize.mjs');
     localize();
+    const {generateSeo}=await import('./scripts/seo.mjs');
+    generateSeo();
   });
   config.addPassthroughCopy('src/assets');
   config.addFilter('news2026',items=>items.filter(x=>!x.draft&&x.date.startsWith('2026-')).sort((a,b)=>b.date.localeCompare(a.date)));
