@@ -10,11 +10,11 @@ content:
     format: json
     fields:
       - name: doctoral
-        label: 博士人数（暂用 x，确认后填写数字）
+        label: 博士人数（填写已确认数字）
         type: string
         required: true
       - name: masters
-        label: 硕士人数（暂用 y，确认后填写数字）
+        label: 硕士人数（填写已确认数字）
         type: string
         required: true
   - name: news
@@ -197,11 +197,30 @@ content:
       - name: data
         label: 数据集链接（HTTPS）
         type: string
+      - name: datasetName
+        label: 单个数据集名称（按钮右侧）
+        type: string
+      - name: datasets
+        label: 多个数据集
+        type: object
+        list: true
+        fields:
+          - name: name
+            label: 数据集名称
+            type: string
+            required: true
+          - name: url
+            label: 数据集链接（HTTPS）
+            type: string
+            required: true
+      - name: demo
+        label: Demo Page 链接（HTTPS）
+        type: string
       - name: source
         label: 信息依据
         type: string
       - name: resourceName
-        label: 资源简称（有代码或数据集时填写）
+        label: 资源简称（旧数据集名称兼容，可选）
         type: string
       - name: problem
         label: Research problem（英文）
