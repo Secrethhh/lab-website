@@ -14,7 +14,7 @@ summary: >-
 featured: true
 draft: false
 paper: 'https://doi.org/10.1109/TIFS.2025.3636668'
-code: ''
+code: 'https://github.com/kyranhsiao/psras'
 data: ''
 source: 'https://doi.org/10.1109/TIFS.2025.3636668'
 figure: /assets/papers/robust-audio-steganography.webp
@@ -23,4 +23,3 @@ figureSource: 'Original paper PDF supplied by the team, Figure 1, PDF page 4'
 ---
 
 Studies audio steganography with provable security and robustness to low-bitrate compression across multiple formats.
-
